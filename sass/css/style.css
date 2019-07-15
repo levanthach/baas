@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Poppins', 'Open Sans' ,sans-serif; }
+
+.wrapper .header-wrap .top-bar {
+  background: #F0F0F0; }
+.wrapper .header-wrap .main-header .menu-header {
+  background: #1C63B8 !important; }
+.wrapper .services {
+  background: #F0F0F0; }
+  .wrapper .services .services__content .icon-wrap {
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 21px;
+    margin-bottom: 12px; }
+
+/*# sourceMappingURL=style.css.map */
