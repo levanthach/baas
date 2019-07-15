@@ -1,11 +1,12 @@
 *{margin: 0; padding: 0;} 
 body {
 	font-family: 'Poppins', 'Open Sans' ,sans-serif;
+	overflow-x: hidden;
 }
 $color-menu: #1C63B8;
-$color-topbar:#F0F0F0;
+$color-topbar:#F7F7F7;
 $color-title: #333333;
-$color-text:#F2F2F2;
+$color-text:#858585;
 
 .wrapper{
 	.header-wrap{
@@ -47,31 +48,84 @@ $color-text:#F2F2F2;
 		background: $color-topbar;
 		.title{
 			.heading-title{
-
+				text-transform: uppercase;
+				font-family: '';
+				font-weight: 600;
 			}
 			.ngan{
-
+				width: 60px;
+				border:1px solid $color-text;
+				margin:auto;
+				margin-bottom: 10px;
 			}
 			.subtitle{
-
+				width: 550px;
+				margin:auto;
+				color: $color-text;
 			}
 		}
 		.services__content{
+			text-align: center;
 			.icon-wrap{
+				width: 100px;
+				height: 100px;
+				line-height: 118px;
+				margin:auto;
+				border: 1px solid $color-menu;
+				border-radius: 50%;
+				i{
+					font-size: 40px;
+				}
+			}
+			.heading {
 				font-size: 16px;
 			    line-height: 26px;
 			    margin-top: 21px;
 			    margin-bottom: 12px;
 			}
 			.desc{
-
+				color:$color-text;
+				margin-bottom: 4px;
 			}
 			.elm-btn{
+				padding-bottom: 50px;
+				a{
+					font-size: 13px;
+			    	font-weight: 500;
+			    	letter-spacing: 1px;
+			    	margin-top: 10px;
+			    	color: $color-text;
+			    	text-transform: uppercase;
 
+				}
+				
+			}
+		}
+	}//end services
+	.row-why-us{
+		.modal-video{
+			position: relative;
+			.modal-video__img{
+				.icon-play-video{
+					width: 70px;
+					height: 70px;
+					background: white;
+					border: 1px solid white;
+					border-radius: 50%;
+					position: absolute;
+				    bottom: 200px;
+				    left: 350px;
+					a{
+						i{
+							text-align: center;
+						    position: absolute;
+						    top: 24px;
+						    font-size: 21px;
+						    left: 27px;
+						}
+					}
+				}
 			}
 		}
 	}
 }
-// .menu-header {
-// 	background: $color-menu!important;
-// }
