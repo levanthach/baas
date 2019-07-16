@@ -7,7 +7,13 @@ $color-menu: #1C63B8;
 $color-topbar:#F7F7F7;
 $color-title: #333333;
 $color-text:#858585;
-
+//đóng gói scss
+@mixin ngan {
+ 	width: 60px;
+	border:1px solid #c6c1c1;
+	margin:auto;
+	margin-bottom: 10px;
+}
 .wrapper{
 	.header-wrap{
 		.top-bar{
@@ -53,10 +59,7 @@ $color-text:#858585;
 				font-weight: 600;
 			}
 			.ngan{
-				width: 60px;
-				border:1px solid $color-text;
-				margin:auto;
-				margin-bottom: 10px;
+				@include ngan;
 			}
 			.subtitle{
 				width: 550px;
@@ -113,8 +116,9 @@ $color-text:#858585;
 					border: 1px solid white;
 					border-radius: 50%;
 					position: absolute;
-				    bottom: 200px;
-				    left: 350px;
+				    bottom: 50%;
+				    left: 50%;
+				    transform: translateX(-50%);
 					a{
 						i{
 							text-align: center;
@@ -125,6 +129,54 @@ $color-text:#858585;
 						}
 					}
 				}
+			}
+		} 
+		// end modal video
+		.why-content{
+			padding-left: 65px;
+    		padding-top: 35px;
+			.title{
+				text-align: justify!important;
+				.heading-title{
+					text-transform: uppercase;
+					font-family: '';
+					font-weight: 600;
+				}
+				.ngan{
+					text-align: justify!important;
+					width: 60px;
+					border:1px solid $color-text;
+					margin-bottom: 10px;
+				}
+				.subtitle{
+					margin:none!important;
+					width: 520px;
+					color: $color-text;
+				}
+			}
+		}
+	}// end row us
+
+	.section-space{
+		background: $color-topbar;
+		.fun-box{
+			padding: 45px 0;
+			.flag{
+				
+			}
+			.count-number{
+				letter-spacing: 1px;
+				color:$color-menu;
+				font-size: 2.5em;
+				font-weight: bold;
+			}
+			.ngan{
+				@include ngan;
+			}
+			.title{
+				color: #777;
+			    font-size: 14px;
+			    margin-top: 10px;
 			}
 		}
 	}
