@@ -14,6 +14,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 	<!-- Open san font -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+	<!-- animate css -->
+	<link rel="stylesheet" type="text/css" href="lib/animate/animate.css">
+	<!-- popup-lightbox-img -->
+	<link rel="stylesheet" type="text/css" href="lib/lightgallery/dist/css/lightgallery.css">
 	<!-- Video popup simple overplay-->
 	<link rel="stylesheet" type="text/css" href="lib/simple-overplay/simple-overlay.css">
 	<!-- Style.css -->
@@ -360,25 +364,25 @@
 					<div class="proces-bar pb-5">
 						<h6 class="name-pro">Tốc độ phục hồi</h6>
 						<div class="progress" style="width: 85%">
-							<div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width:30%">
 								30%
 							</div>
 						</div><br>
 						<h6 class="name-pro">An toàn/mã hóa, quản lý tập trung</h6>
 						<div class="progress" style="width: 85%">
-							<div class="progress-bar" role="progressbar" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100" style="width:26%">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="26" aria-valuemin="0" aria-valuemax="100" style="width:26%">
 								26%
 							</div>
 						</div><br>
 						<h6 class="name-pro">Linh hoạt lưa chọn Clound và Local</h6>
 						<div class="progress" style="width: 85%">
-							<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:18%">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:18%">
 								18%
 							</div>
 						</div><br>
 						<h6 class="name-pro">Tần suất sao lưu(RPOs)</h6>
 						<div class="progress" style="width: 85%">
-							<div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%">
+							<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width:15%">
 								15%
 							</div>
 						</div><br>
@@ -444,10 +448,10 @@
 									<div class="inner">
 										<div class="hover-img">
 											<div class="gallery-image">
-												<img class="img-responsive" src="img/img_3.png"></img>
+												<img class="img-responsive" src="img/img_3.png" ></img>
 											</div>
 											<div class="text">
-												<div class="text__icon"><i class="fa fa-search-plus"></i></div>
+												<div class="text__icon" data-src="img/img_3.png"><i class="fa fa-search-plus"></i></div>
 												<h2 class="text__title"><a href="#">Air condition</a></h2>
 											</div>
 										</div>
@@ -462,10 +466,27 @@
 									<div class="inner">
 										<div class="hover-img">
 											<div class="gallery-image">
-												<img class="img-responsive" src="img/img_1.png"></img>
+												<img class="img-responsive" src="img/img_1.png" ></img>
 											</div>
 											<div class="text">
-												<div class="text__icon"><i class="fa fa-search-plus"></i></div>
+												<div class="text__icon" data-src="img/img_1.png"><i class="fa fa-search-plus"></i></div>
+												<h2 class="text__title"><a href="#">Air condition</a></h2>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- end col-4 item-->
+						<div class="item">
+							<div>
+								<div class="gallery-box">
+									<div class="inner">
+										<div class="hover-img">
+											<div class="gallery-image" >
+													<img class="img-responsive" src="img/img_2.png"></img>
+											</div>
+											<div class="text">
+												<div class="text__icon" data-src="img/img_2.png"><i class="fa fa-search-plus"></i></div>
 												<h2 class="text__title"><a href="#">Air condition</a></h2>
 											</div>
 										</div>
@@ -479,27 +500,10 @@
 									<div class="inner">
 										<div class="hover-img">
 											<div class="gallery-image">
-												<img class="img-responsive" src="img/img_2.png"></img>
+												<img class="img-responsive" src="img/img_2.png" ></img>
 											</div>
 											<div class="text">
-												<div class="text__icon"><i class="fa fa-search-plus"></i></div>
-												<h2 class="text__title"><a href="#">Air condition</a></h2>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> <!-- end col-4 item-->
-						<div class="item">
-							<div>
-								<div class="gallery-box">
-									<div class="inner">
-										<div class="hover-img">
-											<div class="gallery-image">
-												<img class="img-responsive" src="img/img_2.png"></img>
-											</div>
-											<div class="text">
-												<div class="text__icon"><i class="fa fa-search-plus"></i></div>
+												<div class="text__icon" data-src="img/img_2.png" ><i class="fa fa-search-plus"></i></div>
 												<h2 class="text__title"><a href="#">Air condition</a></h2>
 											</div>
 										</div>
@@ -514,15 +518,24 @@
 				</div> <!-- end row -->
 				
 			</div> <!-- end row -->
-
-
-		</div> <!-- end container -->
-	</div> <!-- end gallery -->
+		</div>
+	</div> <!-- end container -->
+</div> <!-- end gallery -->
 
 </div> <!-- end wrapper -->
 </body>
 <!-- Import Jquery -->
 <script type="text/javascript" src="lib/jquery/jquery-3.4.1.min.js"></script>
+<!-- lightgallery -->
+<script type="text/javascript" src="lib/lightgallery/dist/js/lightgallery.min.js"></script>
+<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+<script src="lib/lightgallery/lib/jquery.mousewheel.min.js"></script>
+<!-- lightgallery plugins -->
+<script type="text/javascript" src="lib/lightgallery/modules/lg-share.min.js"></script>
+<script type="text/javascript" src="lib/lightgallery/modules/lg-thumbnail.min.js"></script>
+<script type="text/javascript" src="lib/lightgallery/modules/lg-fullscreen.min.js"></script>
+<script type="text/javascript" src="lib/lightgallery/modules/lg-zoom.min.js"></script>
+<!-- bootstrap4-js -->
 <script type="text/javascript" src="lib/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 <!---video popup simple overplay -->
 <script type="text/javascript" src="lib/simple-overplay/simple-overlay.js"></script>

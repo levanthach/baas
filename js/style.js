@@ -3,6 +3,7 @@
 	  "insertBy": "embed",
 	  "attribute": "data-youtube"
 	});
+	// owl-carousel 
 	$('.owl-carousel').owlCarousel({
 	    loop:true,
 	    margin:10,
@@ -19,7 +20,15 @@
 	            items:3
 	        }
 	    }
-	})
+	});
+	//popup lightgallery
+	$(".text__icon").click(function() {
+		$(".hover-img").lightGallery({
+			thumbnail: true,
+			selector: ".text__icon"
+		}); 
+	});
+	
 });
 
 (function ($) {

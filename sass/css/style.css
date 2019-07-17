@@ -32,10 +32,18 @@ body {
       height: 100px;
       line-height: 118px;
       margin: auto;
-      border: 1px solid #1C63B8;
-      border-radius: 50%; }
+      border: 1px solid #858585;
+      border-radius: 50%;
+      transition: all 0.5s; }
+      .wrapper .services .services__content .icon-wrap:hover {
+        background: #1C63B8;
+        transition: all 0.5s; }
+        .wrapper .services .services__content .icon-wrap:hover i {
+          color: #fff;
+          transition: all 0.5s; }
       .wrapper .services .services__content .icon-wrap i {
-        font-size: 40px; }
+        font-size: 40px;
+        color: #1C63B8; }
     .wrapper .services .services__content .heading {
       font-size: 16px;
       line-height: 26px;
@@ -58,8 +66,8 @@ body {
   .wrapper .row-why-us .modal-video .modal-video__img .icon-play-video {
     width: 70px;
     height: 70px;
-    background: white;
-    border: 1px solid white;
+    background: #fff;
+    border: 1px solid #fff;
     border-radius: 50%;
     position: absolute;
     bottom: 46%;
@@ -148,18 +156,18 @@ body {
       cursor: pointer;
       transition: all 0.8s; }
       .wrapper .gallery-box .inner .hover-img .text .text__icon:hover {
-        background: white !important; }
+        background: #fff !important; }
         .wrapper .gallery-box .inner .hover-img .text .text__icon:hover i {
           color: #333 !important; }
       .wrapper .gallery-box .inner .hover-img .text .text__icon i {
-        color: white;
+        color: #fff;
         font-size: 20px;
         margin: auto;
         position: relative;
         top: 14px;
         transition: all 0.4s; }
     .wrapper .gallery-box .inner .hover-img .text .text__title a {
-      color: white !important;
+      color: #fff !important;
       font-size: 16px !important;
       font-weight: 600;
       text-transform: uppercase;

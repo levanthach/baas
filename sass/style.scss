@@ -7,6 +7,7 @@ $color-menu: #1C63B8;
 $color-topbar:#F7F7F7;
 $color-title: #333333;
 $color-text:#858585;
+$color-white:#fff;
 //đóng gói scss
 @mixin ngan {
  	width: 60px;
@@ -79,10 +80,20 @@ $color-text:#858585;
 				height: 100px;
 				line-height: 118px;
 				margin:auto;
-				border: 1px solid $color-menu;
+				border: 1px solid $color-text;
 				border-radius: 50%;
+				transition: all 0.5s;
+				&:hover{
+					background: $color-menu;
+					transition: all 0.5s;
+					i{
+						color:$color-white;
+						transition: all 0.5s;
+					}
+				}
 				i{
 					font-size: 40px;
+					color:$color-menu;
 				}
 			}
 			.heading {
@@ -117,8 +128,8 @@ $color-text:#858585;
 				.icon-play-video{
 					width: 70px;
 					height: 70px;
-					background: white;
-					border: 1px solid white;
+					background: $color-white;
+					border: 1px solid $color-white;
 					border-radius: 50%;
 					position: absolute;
 				    bottom: 46%;
@@ -236,7 +247,7 @@ $color-text:#858585;
 						cursor: pointer;
 						transition: all 0.8s;
 						&:hover{
-							background: white!important;
+							background: $color-white!important;
 
 							i{
 								color: #333!important;
@@ -244,7 +255,7 @@ $color-text:#858585;
 							
 						}
 						i{
-							color: white;
+							color: $color-white;
 						    font-size: 20px;
 						    margin: auto;
 						    position: relative;
@@ -255,7 +266,7 @@ $color-text:#858585;
 
 					.text__title{
 						a{
-							color: white!important;
+							color: $color-white!important;
 							font-size: 16px!important;
 							font-weight: 600;
 							text-transform: uppercase;
