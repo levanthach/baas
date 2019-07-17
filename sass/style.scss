@@ -10,7 +10,7 @@ $color-text:#858585;
 $color-white:#fff;
 //đóng gói scss
 @mixin ngan {
- 	width: 60px;
+	width: 60px;
 	border:1px solid #c6c1c1;
 	margin:auto;
 	margin-bottom: 10px;
@@ -20,7 +20,16 @@ $color-white:#fff;
 	font-family: '';
 	font-weight: 600;
 }
+@mixin subtitle{
+		margin:none!important;
+		width: 520px;
+		color: $color-text;
+}
 .wrapper{
+	button{
+		margin:auto;
+	}
+
 	.header-wrap{
 		.top-bar{
 			background: $color-topbar;
@@ -108,9 +117,9 @@ $color-white:#fff;
 			}
 			.heading {
 				font-size: 16px;
-			    line-height: 26px;
-			    margin-top: 21px;
-			    margin-bottom: 12px;
+				line-height: 26px;
+				margin-top: 21px;
+				margin-bottom: 12px;
 			}
 			.desc{
 				color:$color-text;
@@ -120,11 +129,11 @@ $color-white:#fff;
 				padding-bottom: 50px;
 				a{
 					font-size: 13px;
-			    	font-weight: 500;
-			    	letter-spacing: 1px;
-			    	margin-top: 10px;
-			    	color: $color-text;
-			    	text-transform: uppercase;
+					font-weight: 500;
+					letter-spacing: 1px;
+					margin-top: 10px;
+					color: $color-text;
+					text-transform: uppercase;
 
 				}
 				
@@ -142,16 +151,16 @@ $color-white:#fff;
 					border: 1px solid $color-white;
 					border-radius: 50%;
 					position: absolute;
-				    bottom: 46%;
-				    left: 50%;
-				    transform: translateX(-50%);
+					bottom: 46%;
+					left: 50%;
+					transform: translateX(-50%);
 					a{
 						i{
 							text-align: center;
-						    position: absolute;
-						    top: 24px;
-						    font-size: 21px;
-						    left: 27px;
+							position: absolute;
+							top: 24px;
+							font-size: 21px;
+							left: 27px;
 						}
 					}
 				}
@@ -160,7 +169,7 @@ $color-white:#fff;
 		// end modal video
 		.why-content{
 			padding-left: 65px;
-    		padding-top: 35px;
+			padding-top: 35px;
 			.title{
 				text-align: justify!important;
 				.heading-title{
@@ -182,7 +191,6 @@ $color-white:#fff;
 			}
 		}
 	}// end row us
-
 	.section-space{
 		background: $color-topbar;
 		.fun-box{
@@ -202,8 +210,8 @@ $color-white:#fff;
 			}
 			.title{
 				color: #777;
-			    font-size: 14px;
-			    margin-top: 10px;
+				font-size: 14px;
+				margin-top: 10px;
 			}
 		}
 	}
@@ -223,58 +231,56 @@ $color-white:#fff;
 				color: $color-text;
 			}
 		}
-	}
-	.gallery-box{
-		.inner{
-			position: relative;
-			.hover-img{
-				.gallery-image{
-					&:before{
-						content: '';
-					    width: 100%;
-					    height: 100%;
-					    background: #333;
-					    position: absolute;
-					    opacity: 0.8;
+		.gallery-box{
+			.inner{
+				position: relative;
+				.hover-img{
+					.gallery-image{
+						&:before{
+							content: '';
+							width: 100%;
+							height: 100%;
+							background: #333;
+							position: absolute;
+							opacity: 0.8;
+						}
+						img {
+							width: 100%!important;
+							background-size: cover;
+						}
 					}
-					img {
-						width: 100%!important;
-						background-size: cover;
-					}
-				}
-				.text{
-					position: absolute;
-					text-align: center;
-				    margin: auto;
-				    width: 100%;
-				    left: 50%;
-				    top: 150px;
-				    transform:translateX(-50%);
-					.text__icon{	
-						width: 50px;
-						height: 50px;
-						margin:auto;
-						background: $color-menu;
-						cursor: pointer;
-						transition: all 0.8s;
-						&:hover{
-							background: $color-white!important;
+					.text{
+						position: absolute;
+						text-align: center;
+						margin: auto;
+						width: 100%;
+						left: 50%;
+						top: 150px;
+						transform:translateX(-50%);
+						.text__icon{	
+							width: 50px;
+							height: 50px;
+							margin:auto;
+							background: $color-menu;
+							cursor: pointer;
+							transition: all 0.8s;
+							&:hover{
+								background: $color-white!important;
 
-							i{
-								color: #333!important;
+								i{
+									color: #333!important;
+								}
 							}
-							
-						}
-						i{
-							color: $color-white;
-						    font-size: 20px;
-						    margin: auto;
-						    position: relative;
-						    top: 14px;
-						    transition: all 0.4s;
-						}
-					} // end text__icon
-
+							i{
+								color: $color-white;
+								font-size: 20px;
+								margin: auto;
+								position: relative;
+								top: 14px;
+								transition: all 0.4s;
+							}
+						} //end text__icon
+					} // end text
 					.text__title{
 						a{
 							color: $color-white!important;
@@ -287,15 +293,56 @@ $color-white:#fff;
 								color:$color-menu!important;
 							}
 						}
-						
 					} //end text__title
-				} //end text
+				} //hover-img
+			}//end inner	
+		}  //end gallery-box
+	} //end gallery
+	.certified{
+		.certified__logo{
+			img{
+				width: 100%;
+			}
+		}
+		.certified__content{
+			.headding{
 
 			}
-			
-		} //end inner
-	} //end gallery-box
-	button{
-		margin:auto;
+			.desc{
+
+			}
+			.elm-btn{
+				.elm-btn__white{
+
+				}
+			}
+		}
+	} // end certified
+	.about{
+		.about__img{
+			img{
+				width: 100%;
+			}
+		}
+		.about__content{
+			.title{
+				text-align: justify;
+				.heading-title{
+					@include heading-title;
+				}
+				.ngan{
+					text-align: justify !important;
+				    width: 60px;
+				    border: 1px solid #858585;
+				    margin-bottom: 10px;
+				}
+				.subtitle{
+					@include subtitle;
+				}
+			}
+		}
 	}
 }
+
+
+
