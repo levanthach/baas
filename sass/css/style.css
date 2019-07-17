@@ -8,6 +8,14 @@ body {
 
 .wrapper .header-wrap .top-bar {
   background: #F7F7F7; }
+  .wrapper .header-wrap .top-bar .top-bar__content {
+    display: inline; }
+  .wrapper .header-wrap .top-bar .top-bar__social ul {
+    display: inline;
+    float: right; }
+    .wrapper .header-wrap .top-bar .top-bar__social ul li {
+      list-style-type: none;
+      float: left; }
 .wrapper .header-wrap .main-header .menu-header {
   background: #1C63B8 !important; }
 .wrapper .services {
@@ -101,6 +109,9 @@ body {
   background: #F7F7F7; }
   .wrapper .section-space .fun-box {
     padding: 45px 0; }
+    .wrapper .section-space .fun-box .flag {
+      width: 100%;
+      height: 4em; }
     .wrapper .section-space .fun-box .count-number {
       letter-spacing: 1px;
       color: #1C63B8;
