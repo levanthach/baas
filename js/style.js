@@ -4,7 +4,7 @@
 	  "attribute": "data-youtube"
 	});
 	// owl-carousel 
-	$('.owl-carousel').owlCarousel({
+	$('.owl-carousel.owl-img').owlCarousel({
 	    loop:true,
 	    margin:10,
 	    nav:true,
@@ -22,24 +22,42 @@
 	    }
 	});	
 	// owl-carousel-feedback
-	// $('.owl-carousel-feedback').owlCarousel({
-	//     loop:true,
-	//     margin:10,
-	//     dots:true,
-	//     nav:false,
-	//     responsiveClass:true,
-	//     responsive:{
-	//         0:{
-	//             items:1,
-	//         },
-	//         600:{
-	//             items:1,
-	//         },
-	//         1000:{
-	//             items:3,
-	//         }
-	//     }
-	// })
+	$('.owl-carousel.owl-carousel-fb').owlCarousel({
+	    loop:false,
+	    margin:10,
+	    nav:false,
+	    dots:true,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:1
+	        },
+	        1000:{
+	            items:3
+	        }
+	    }
+	});	
+
+	//owl-partner
+	$('.owl-carousel.owl-partner').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    nav:true,
+	    dots:false,
+	    responsive:{
+	        0:{
+	            items:2
+	        },
+	        600:{
+	            items:3
+	        },
+	        1000:{
+	            items:5
+	        }
+	    }
+	});	
 
 	//popup lightgallery
 	$(".text__icon").click(function() {
