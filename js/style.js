@@ -20,7 +20,27 @@
 	            items:3
 	        }
 	    }
-	});
+	});	
+	// owl-carousel-feedback
+	// $('.owl-carousel-feedback').owlCarousel({
+	//     loop:true,
+	//     margin:10,
+	//     dots:true,
+	//     nav:false,
+	//     responsiveClass:true,
+	//     responsive:{
+	//         0:{
+	//             items:1,
+	//         },
+	//         600:{
+	//             items:1,
+	//         },
+	//         1000:{
+	//             items:3,
+	//         }
+	//     }
+	// })
+
 	//popup lightgallery
 	$(".text__icon").click(function() {
 		$(".hover-img").lightGallery({
