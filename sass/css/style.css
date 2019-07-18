@@ -19,7 +19,11 @@ body {
       list-style-type: none;
       float: left; }
 .wrapper .header-wrap .main-header .menu-header {
-  background: #1C63B8 !important; }
+  background: #1857a3 !important; }
+  .wrapper .header-wrap .main-header .menu-header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: #fff; }
+  .wrapper .header-wrap .main-header .menu-header .navbar .navbar-collapse .navbar-nav .float-right .form-inline i {
+    color: #fff; }
 .wrapper .services {
   background: #F7F7F7; }
   .wrapper .services .title .heading-title {
@@ -46,14 +50,13 @@ body {
       border-radius: 50%;
       transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
       .wrapper .services .services__content .icon-wrap:hover {
-        background: #1C63B8;
-        transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
+        background: #1857a3; }
         .wrapper .services .services__content .icon-wrap:hover i {
-          color: #fff;
-          transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
+          color: #fff; }
       .wrapper .services .services__content .icon-wrap i {
         font-size: 40px;
-        color: #1C63B8; }
+        color: #1857a3;
+        transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
     .wrapper .services .services__content .heading {
       font-size: 16px;
       line-height: 26px;
@@ -116,7 +119,7 @@ body {
       height: 4em; }
     .wrapper .section-space .fun-box .count-number {
       letter-spacing: 1px;
-      color: #1C63B8;
+      color: #1857a3;
       font-size: 2.5em;
       font-weight: bold; }
     .wrapper .section-space .fun-box .ngan {
@@ -165,7 +168,7 @@ body {
       width: 50px;
       height: 50px;
       margin: auto;
-      background: #1C63B8;
+      background: #1857a3;
       cursor: pointer;
       transition: all 0.8s; }
       .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover {
@@ -187,7 +190,7 @@ body {
     transition: all 0.4s;
     text-decoration: none; }
     .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
-      color: #1C63B8 !important; }
+      color: #1857a3 !important; }
 .wrapper .certified {
   background: url("../../img/block_bg.jpeg") no-repeat left center;
   background-size: cover;
@@ -228,6 +231,8 @@ body {
     box-shadow: 4px 8px 12px 0 #f7f2f2;
     display: block;
     transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1); }
+    .wrapper .about .about__img .photo img:hover {
+      opacity: 0.8; }
   .wrapper .about .about__content {
     padding-left: 65px; }
     .wrapper .about .about__content .title {
@@ -248,7 +253,7 @@ body {
         font-weight: 300;
         margin-bottom: 30px; }
       .wrapper .about .about__content .title .wprt-button.solid.accent {
-        background-color: #1C63B8;
+        background-color: #1857a3;
         color: #fff;
         border-radius: 3px;
         padding: 13px 30px;
@@ -260,7 +265,8 @@ body {
         .wrapper .about .about__content .title .wprt-button.solid.accent:hover {
           background-color: #333 !important; }
 .wrapper .feed-back {
-  background: #F7F7F7; }
+  background: #F7F7F7;
+  padding-bottom: 30px; }
   .wrapper .feed-back .title .heading-title {
     text-transform: uppercase;
     font-family: '';
@@ -328,5 +334,46 @@ body {
             text-transform: uppercase; }
     .wrapper .feed-back .item .inner--long {
       height: 370px !important; }
+.wrapper .partner {
+  padding: 40px 0 20px 0; }
+  .wrapper .partner .owl-partner .item img {
+    width: 200px;
+    height: 75px;
+    object-fit: contain; }
+.wrapper .promotion {
+  background: #1857a3;
+  padding: 10px; }
+  .wrapper .promotion .inner .heading-wrap .text-wrap .heading {
+    color: #fff;
+    font-size: 25px;
+    display: inline;
+    position: relative;
+    top: 20px;
+    left: 58px;
+    font-weight: 700; }
+  .wrapper .promotion .inner .heading-wrap .text-wrap .icon {
+    float: left; }
+  .wrapper .promotion .button-wrap {
+    background: #fff;
+    border-radius: 3px;
+    transition: all 0.7s;
+    position: relative;
+    top: 15px; }
+    .wrapper .promotion .button-wrap:hover {
+      background: #20252B; }
+      .wrapper .promotion .button-wrap:hover .wprt-button-white {
+        color: #fff; }
+    .wrapper .promotion .button-wrap .wprt-button-white {
+      padding: 13px 40px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      color: #777;
+      background-color: transparent;
+      text-decoration: none;
+      display: inline-block;
+      -webkit-transition: all ease 0.3s;
+      -moz-transition: all ease 0.3s;
+      transition: all ease 0.3s; }
 
 /*# sourceMappingURL=style.css.map */
