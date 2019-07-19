@@ -375,5 +375,132 @@ body {
       -webkit-transition: all ease 0.3s;
       -moz-transition: all ease 0.3s;
       transition: all ease 0.3s; }
+.wrapper #footer {
+  background: #20252b;
+  font-size: 14px;
+  padding: 90px 0 0;
+  position: relative;
+  z-index: 1;
+  border-style: solid; }
+  .wrapper #footer .ft-widgets .ft-widgets__text {
+    margin: 0 0 26px; }
+    .wrapper #footer .ft-widgets .ft-widgets__text .text-widget {
+      color: #fff; }
+      .wrapper #footer .ft-widgets .ft-widgets__text .text-widget .widget-logo img {
+        position: relative;
+        bottom: 8px;
+        right: 20px; }
+      .wrapper #footer .ft-widgets .ft-widgets__text .text-widget .widget-info {
+        font-weight: 300;
+        color: #b1b1b1;
+        letter-spacing: 0.2px;
+        padding-top: 10px; }
+    .wrapper #footer .ft-widgets .ft-widgets__text .icon-social-widget {
+      display: inline; }
+      .wrapper #footer .ft-widgets .ft-widgets__text .icon-social-widget ul li {
+        float: left; }
+  .wrapper #footer .ft-widgets .ft-widgets__link {
+    color: #fff; }
+    .wrapper #footer .ft-widgets .ft-widgets__link .widget-title {
+      letter-spacing: 0.5px;
+      font-size: 1em;
+      margin: 0 0 30px 0;
+      text-transform: uppercase;
+      z-index: 1;
+      position: relative; }
+      .wrapper #footer .ft-widgets .ft-widgets__link .widget-title span {
+        text-transform: uppercase; }
+        .wrapper #footer .ft-widgets .ft-widgets__link .widget-title span::after {
+          width: 57px;
+          height: 2px;
+          background-color: #1857a3;
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 25px;
+          z-index: 22; }
+    .wrapper #footer .ft-widgets .ft-widgets__link .widget-link {
+      padding-left: 15px; }
+      .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2 {
+        width: 50%;
+        float: left;
+        margin-bottom: 3px;
+        padding: 4px 3px 2px 1px;
+        cursor: pointer;
+        transition: all 0.5s; }
+        .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2:hover a {
+          color: #1857a3;
+          text-decoration: none; }
+        .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2 a {
+          font-weight: 300;
+          color: #e7e7e9eb;
+          text-decoration: none; }
+  .wrapper #footer .ft-widgets .ft-widgets__feed {
+    color: #fff; }
+    .wrapper #footer .ft-widgets .ft-widgets__feed .widget-title {
+      letter-spacing: 0.5px;
+      font-size: 1em;
+      margin: 0 0 30px 0;
+      text-transform: uppercase;
+      z-index: 1;
+      position: relative;
+      right: 10px; }
+      .wrapper #footer .ft-widgets .ft-widgets__feed .widget-title span {
+        text-transform: uppercase; }
+        .wrapper #footer .ft-widgets .ft-widgets__feed .widget-title span::after {
+          width: 57px;
+          height: 2px;
+          background-color: #1857a3;
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 25px;
+          z-index: 22; }
+    .wrapper #footer .ft-widgets .ft-widgets__feed .widget-image .item {
+      margin: 5px; }
+      .wrapper #footer .ft-widgets .ft-widgets__feed .widget-image .item:hover img {
+        opacity: 0.5; }
+  .wrapper #footer .ft-widgets .ft-widgets__contact {
+    color: #fff; }
+    .wrapper #footer .ft-widgets .ft-widgets__contact .widget-title {
+      letter-spacing: 0.5px;
+      font-size: 1em;
+      margin: 0 0 30px 0;
+      text-transform: uppercase;
+      z-index: 1;
+      position: relative; }
+      .wrapper #footer .ft-widgets .ft-widgets__contact .widget-title span {
+        text-transform: uppercase; }
+        .wrapper #footer .ft-widgets .ft-widgets__contact .widget-title span::after {
+          width: 57px;
+          height: 2px;
+          background-color: #1857a3;
+          content: "";
+          position: absolute;
+          left: 0;
+          top: 25px;
+          z-index: 22; }
+    .wrapper #footer .ft-widgets .ft-widgets__contact ul {
+      padding-left: 15px; }
+      .wrapper #footer .ft-widgets .ft-widgets__contact ul li {
+        position: relative;
+        padding: 0 0 0 2px;
+        margin-bottom: 5px;
+        letter-spacing: 0.5;
+        border: 0; }
+        .wrapper #footer .ft-widgets .ft-widgets__contact ul li .inner .hl {
+          color: #e7e7e9eb;
+          font-weight: 300; }
+        .wrapper #footer .ft-widgets .ft-widgets__contact ul li .inner .text {
+          color: #b1b1b1;
+          font-weight: 300; }
+  .wrapper #footer .ngan-footer {
+    width: 100%;
+    margin-top: 50px;
+    border: 0.5px solid #595D62;
+    margin-bottom: 0; }
+  .wrapper #footer .ft-bottom .copyright {
+    padding: 10px 0;
+    color: #b1b1b1; }
 
 /*# sourceMappingURL=style.css.map */

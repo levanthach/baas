@@ -9,6 +9,9 @@ $color-topbar:#F7F7F7;
 $color-title: #333333;
 $color-text:#777;
 $color-white:#fff;
+$color-footer:#20252b;
+$color-footer__text: #b1b1b1;
+
 //đóng gói scss
 @mixin ngan {
 	width: 60px;
@@ -26,6 +29,28 @@ $color-white:#fff;
 	width: 520px;
 	color: $color-text;
 	font-weight: 300;
+}
+@mixin title-footer{
+	text-transform: uppercase;
+	&::after{
+		width: 57px;
+	    height: 2px;
+	    background-color: $color-menu;
+	    content: "";
+	    position: absolute;
+	    left: 0;
+	    top: 25px;
+	    z-index: 22;
+	}
+}
+
+@mixin widget-title{
+	letter-spacing: 0.5px;
+    font-size: 1em;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    z-index: 1;
+    position: relative;
 }
 .wrapper{
 	button{
@@ -544,6 +569,140 @@ $color-white:#fff;
 			}
 		} //end button-wrap
 	}
+	#footer{
+		background: $color-footer;
+		font-size: 14px;
+	    padding: 90px 0 0;
+	    position: relative;
+	    z-index: 1;
+	    border-style: solid;
+		.ft-widgets{
+			.ft-widgets__text{
+				margin: 0 0 26px;
+
+				.text-widget{
+					color:$color-white;
+					.widget-logo{
+						img{
+							position: relative;
+						    bottom: 8px;
+						    right: 20px;
+						}
+					} //end logo-ft
+					.widget-info{
+						font-weight: 300;
+						color: $color-footer__text;
+						letter-spacing: 0.2px;
+						padding-top: 10px;
+					}
+				} //end text-widgets
+				.icon-social-widget{
+					display: inline;
+					ul{
+						li{
+							float: left;
+						}
+					}
+					
+				} //end ft-widgets__social
+			} //end ft-widgets__text
+			.ft-widgets__link{
+				color: $color-white;
+				.widget-title{
+					@include widget-title;
+					span{
+						@include title-footer;
+					}
+				}
+				.widget-link{
+					padding-left: 15px;
+					.style2{
+						width: 50%;
+						float: left;
+						margin-bottom: 3px;
+						padding: 4px 3px 2px 1px;
+						cursor: pointer;
+						transition: all 0.5s;
+						&:hover{
+							a{
+								color: $color-menu;
+								text-decoration: none;
+							}
+						}
+						a{
+							font-weight: 300;
+							color: #e7e7e9eb;
+							text-decoration: none;
+						}
+					}
+	
+				}
+			} //end ft-widgtes__link
+			.ft-widgets__feed{
+				color: $color-white;
+				.widget-title{
+					@include widget-title;
+					right: 10px;
+					span{
+						@include title-footer;
+					}
+				}
+				.widget-image{
+					.item{
+						margin: 5px;
+						&:hover{
+							img{
+								opacity: 0.5;
+							}
+						}
+					}
+					
+				}
+				
+			} //end ft-widgets__contact
+			.ft-widgets__contact{
+				color: $color-white;
+				.widget-title{
+					@include widget-title;
+					span{
+						@include title-footer;
+					}
+				}
+				ul{
+					padding-left: 15px;
+					li{
+						position: relative;
+					    padding: 0 0 0 2px;
+					    margin-bottom: 5px;
+					    letter-spacing: 0.5;
+					    border: 0;
+						.inner{
+							.hl{
+								color: #e7e7e9eb;
+								font-weight: 300;
+							}
+							.text{
+								color: $color-footer__text;
+								font-weight: 300;
+							}
+						}
+					}
+				}
+			}
+		} //end ft-widgets
+		.ngan-footer{
+			width: 100%;
+			margin-top: 50px;
+			border:0.5px solid #595D62;
+			margin-bottom: 0;
+		} //end ngan-footer
+		.ft-bottom{
+			.copyright{
+				padding: 10px 0;
+				color: $color-footer__text;
+			}
+		}
+	} //end footer
 }
 
 
