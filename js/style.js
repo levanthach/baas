@@ -1,4 +1,5 @@
 ﻿$(document).ready(function() {
+   
 	$(".youtube-demo").simpleOverlay({
 	  "insertBy": "embed",
 	  "attribute": "data-youtube"
