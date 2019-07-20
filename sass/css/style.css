@@ -15,7 +15,7 @@ body {
     .wrapper .header-wrap .top-bar .top-bar__content .address {
       padding-left: 5px;
       position: relative;
-      left: 10px;
+      left: 44px;
       font-size: 14px;
       color: #8a8787;
       font-weight: 300;
@@ -55,15 +55,9 @@ body {
             line-height: 30px;
             text-align: center;
             border-radius: 50%; }
-.wrapper .header-wrap .main-header .menu-header {
-  background: #1857a3 !important; }
-  .wrapper .header-wrap .main-header .menu-header .navbar {
-    position: relative;
-    right: 35px; }
-    .wrapper .header-wrap .main-header .menu-header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
-      color: #fff; }
-    .wrapper .header-wrap .main-header .menu-header .navbar .navbar-collapse .navbar-nav .float-right .form-inline i {
-      color: #fff; }
+.wrapper .header-wrap .menu-header {
+  background: #1857a3 !important;
+  border-bottom: 2px solid #fff; }
 .wrapper .services {
   background: #F7F7F7; }
   .wrapper .services .title .heading-title {
@@ -116,6 +110,10 @@ body {
         text-transform: uppercase; }
 .wrapper .row-why-us .modal-video {
   position: relative; }
+  .wrapper .row-why-us .modal-video .modal-video__img img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; }
   .wrapper .row-why-us .modal-video .modal-video__img .icon-play-video {
     width: 70px;
     height: 70px;
@@ -189,10 +187,22 @@ body {
   .wrapper .gallery .gallery-box:hover .inner .hover-img .text {
     visibility: visible !important;
     opacity: 1 !important;
-    z-index: 344; }
+    z-index: 344;
+    animation: text 1s ease; }
+@-webkit-keyframes text {
+  from {
+    top: 100px; }
+  to {
+    top: 40%; } }
   .wrapper .gallery .gallery-box:hover .inner .hover-img .gallery-image:before {
     visibility: visible !important;
-    opacity: 0.7 !important; }
+    opacity: 0.7 !important;
+    animation: an1 1s ease; }
+@-webkit-keyframes an1 {
+  from {
+    top: 100px; }
+  to {
+    top: 150px; } }
 .wrapper .gallery .gallery-box .inner {
   position: relative; }
   .wrapper .gallery .gallery-box .inner .hover-img .gallery-image:before {

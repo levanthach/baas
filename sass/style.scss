@@ -64,7 +64,7 @@ $color-footer__text: #b1b1b1;
 				.address{
 					padding-left: 5px;
 					position: relative;
-					left: 10px;
+					left: 44px;
 					font-size: 14px;
 					color: #8a8787;
 					font-weight: 300;
@@ -121,44 +121,12 @@ $color-footer__text: #b1b1b1;
 				}
 			}
 		} //end topbar
-		.main-header{
-			.menu-header{
-				background: $color-menu!important;
-				.navbar{
-					position: relative;
-					right: 35px;
-					.navbar-toggler{
-						.navbar-toggler-icon{
 
-						}
-					}
-					.navbar-collapse{
-						.navbar-nav{
-							.nav-item{
-								.nav-link{
-									color: $color-white;
-								} //end nav-link
-								.dropdown-menu{
-									.dropdown-item{
-
-									} 
-								} //end dropdown-menu
-							} //end nav item
-							.float-right{
-								.form-inline{
-									.form-control{
-
-									} //end form search
-									i{
-										color:$color-white;
-									}
-								}
-							}
-						} //end navbar-nav
-					} //end navbar-collapse
-				} //end nav
-			} //end menu-header
-		} //end main-header
+		.menu-header{
+			background: $color-menu!important;
+			border-bottom: 2px solid $color-white
+			
+		} //end menu-header
 	} 
 	// end headerwrap
 	.services{
@@ -229,6 +197,11 @@ $color-footer__text: #b1b1b1;
 		.modal-video{
 			position: relative;
 			.modal-video__img{
+				img{
+					max-width: 100%;
+					height: auto;
+					object-fit: cover;
+				}
 				.icon-play-video{
 					width: 70px;
 					height: 70px;
@@ -325,11 +298,29 @@ $color-footer__text: #b1b1b1;
 							visibility: visible!important;
 							opacity: 1!important;
 							z-index: 344;
+							animation: text 1s ease;
 						}
+						@-webkit-keyframes text{
+							from{
+								top: 100px							}
+							to{
+								top:40%;
+							}
+						}
+
 						.gallery-image{
 							&:before{
 								visibility: visible!important;
 								opacity: 0.7!important;
+								animation: an1 1s ease;
+							}
+							@-webkit-keyframes an1{
+								from{
+									top:100px;
+								}
+								to{
+									top: 150px;
+								}
 							}
 						}
 					}
