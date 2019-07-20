@@ -59,6 +59,7 @@ body {
   background: #1857a3 !important;
   border-bottom: 2px solid #fff; }
 .wrapper .services {
+  padding: 20px 0;
   background: #F7F7F7; }
   .wrapper .services .title .heading-title {
     text-transform: uppercase;
@@ -169,94 +170,98 @@ body {
       color: #777;
       font-size: 14px;
       margin-top: 10px; }
-.wrapper .gallery .title .heading-title {
-  text-transform: uppercase;
-  font-family: '';
-  font-weight: 600; }
-.wrapper .gallery .title .ngan {
-  width: 60px;
-  border: 1px solid #c6c1c1;
-  margin: auto;
-  margin-bottom: 10px; }
-.wrapper .gallery .title .subtitle {
-  width: 550px;
-  margin: auto;
-  color: #777; }
-.wrapper .gallery .gallery-box:hover {
-  cursor: pointer; }
-  .wrapper .gallery .gallery-box:hover .inner .hover-img .text {
-    visibility: visible !important;
-    opacity: 1 !important;
-    z-index: 344;
-    animation: text 1s ease; }
+.wrapper .gallery {
+  padding: 20px 0; }
+  .wrapper .gallery .title .heading-title {
+    text-transform: uppercase;
+    font-family: '';
+    font-weight: 600; }
+  .wrapper .gallery .title .ngan {
+    width: 60px;
+    border: 1px solid #c6c1c1;
+    margin: auto;
+    margin-bottom: 10px; }
+  .wrapper .gallery .title .subtitle {
+    width: 550px;
+    margin: auto;
+    color: #777; }
+  .wrapper .gallery .gallery-box {
+    margin-right: 15px; }
+    .wrapper .gallery .gallery-box:hover {
+      cursor: pointer; }
+      .wrapper .gallery .gallery-box:hover .inner .hover-img .text {
+        visibility: visible !important;
+        opacity: 1 !important;
+        z-index: 344;
+        animation: text 1s ease; }
 @-webkit-keyframes text {
   from {
     top: 100px; }
   to {
-    top: 40%; } }
-  .wrapper .gallery .gallery-box:hover .inner .hover-img .gallery-image:before {
-    visibility: visible !important;
-    opacity: 0.7 !important;
-    animation: an1 1s ease; }
+    top: 150px; } }
+      .wrapper .gallery .gallery-box:hover .inner .hover-img .gallery-image:before {
+        visibility: visible !important;
+        opacity: 0.7 !important;
+        animation: an1 1s ease; }
 @-webkit-keyframes an1 {
   from {
-    top: 100px; }
+    top: 100%; }
   to {
-    top: 150px; } }
-.wrapper .gallery .gallery-box .inner {
-  position: relative; }
-  .wrapper .gallery .gallery-box .inner .hover-img .gallery-image:before {
-    content: '';
-    width: 100%;
-    height: 100%;
-    background: #333;
-    position: absolute;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0,5s; }
-  .wrapper .gallery .gallery-box .inner .hover-img .gallery-image img {
-    width: 100% !important;
-    background-size: cover; }
-  .wrapper .gallery .gallery-box .inner .hover-img .text {
-    transition: all 0.5s;
-    visibility: hidden;
-    opacity: 0;
-    position: absolute;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    left: 50%;
-    top: 150px;
-    transform: translateX(-50%); }
-    .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon {
-      width: 50px;
-      height: 50px;
-      margin: auto;
-      background: #1857a3;
-      cursor: pointer;
-      transition: all 0.8s; }
-      .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover {
-        background: #fff !important; }
-        .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover i {
-          color: #333 !important; }
-      .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon i {
-        color: #fff;
-        font-size: 20px;
+    top: 0; } }
+    .wrapper .gallery .gallery-box .inner {
+      position: relative; }
+      .wrapper .gallery .gallery-box .inner .hover-img .gallery-image:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: #333;
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        transition: all 0,5s; }
+      .wrapper .gallery .gallery-box .inner .hover-img .gallery-image img {
+        width: 100% !important;
+        background-size: cover; }
+      .wrapper .gallery .gallery-box .inner .hover-img .text {
+        transition: all 0.5s;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
         margin: auto;
-        position: relative;
-        top: 14px;
-        transition: all 0.4s; }
-  .wrapper .gallery .gallery-box .inner .hover-img .text__title a {
-    color: #fff !important;
-    font-size: 16px !important;
-    font-weight: 600;
-    text-transform: uppercase;
-    transition: all 0.4s;
-    text-decoration: none; }
-    .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
-      color: #1857a3 !important; }
+        width: 100%;
+        left: 50%;
+        top: 150px;
+        transform: translateX(-50%); }
+        .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon {
+          width: 50px;
+          height: 50px;
+          margin: auto;
+          background: #1857a3;
+          cursor: pointer;
+          transition: all 0.8s; }
+          .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover {
+            background: #fff !important; }
+            .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover i {
+              color: #333 !important; }
+          .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon i {
+            color: #fff;
+            font-size: 20px;
+            margin: auto;
+            position: relative;
+            top: 14px;
+            transition: all 0.4s; }
+      .wrapper .gallery .gallery-box .inner .hover-img .text__title a {
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: all 0.4s;
+        text-decoration: none; }
+        .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
+          color: #1857a3 !important; }
 .wrapper .certified {
-  background: url("../../img/block_bg.jpeg") no-repeat left center;
+  background: url("../../img/bg_server.jpeg") no-repeat left center;
   background-size: cover;
   background-attachment: fixed;
   padding: 65px;
@@ -288,6 +293,7 @@ body {
         background: #fff;
         color: #777; }
 .wrapper .about {
+  padding: 50px 0px;
   margin-bottom: 3em; }
   .wrapper .about .about__img .photo img {
     width: 100%;
@@ -330,7 +336,7 @@ body {
           background-color: #333 !important; }
 .wrapper .feed-back {
   background: #F7F7F7;
-  padding-bottom: 30px; }
+  padding: 30px 0; }
   .wrapper .feed-back .title .heading-title {
     text-transform: uppercase;
     font-family: '';
