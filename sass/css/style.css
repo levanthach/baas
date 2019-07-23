@@ -58,6 +58,12 @@ body {
 .wrapper .header-wrap .menu-header {
   background: #1857a3 !important;
   border-bottom: 2px solid #fff; }
+.wrapper .header-wrap .menu-fix {
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  right: 0;
+  top: 0; }
 .wrapper .services {
   padding: 20px 0;
   background: #F7F7F7; }
@@ -143,7 +149,7 @@ body {
     .wrapper .row-why-us .why-content .title .ngan {
       text-align: justify !important;
       width: 60px;
-      border: 1px solid #777;
+      border: 1px solid #c6c1c1;
       margin-bottom: 10px; }
     .wrapper .row-why-us .why-content .title .subtitle {
       margin: none !important;
@@ -260,6 +266,51 @@ body {
         text-decoration: none; }
         .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
           color: #1857a3 !important; }
+  .wrapper .gallery .owl-nav .owl-prev {
+    background: #0984e3;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    left: -2%;
+    bottom: 46%;
+    transition: all 0.5s; }
+    .wrapper .gallery .owl-nav .owl-prev span {
+      outline: none !important;
+      font-size: 30px;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      line-height: 33px; }
+  .wrapper .gallery .owl-nav .owl-next {
+    background: #0984e3;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: -1%;
+    bottom: 46%;
+    transition: all 0.5s; }
+    .wrapper .gallery .owl-nav .owl-next span {
+      outline: none !important;
+      font-size: 30px;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      line-height: 33px; }
+  .wrapper .gallery .more-read {
+    text-transform: uppercase;
+    border-color: #dbdbdb;
+    background-color: transparent;
+    color: #777;
+    position: relative;
+    padding: 9px 40px;
+    top: 25px;
+    transition: all 1.3s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
+    .wrapper .gallery .more-read:hover {
+      background: #1857a3;
+      color: #fff;
+      transition: all 1.3s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
 .wrapper .certified {
   background: url("../../img/bg_server.jpeg") no-repeat left center;
   background-size: cover;
@@ -286,7 +337,7 @@ body {
       border-radius: 3px;
       background-color: transparent;
       color: #fff;
-      padding: 6px 15px;
+      padding: 9px 15px;
       border: 1px solid #fff;
       transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
       .wrapper .certified .certified__content .elm-btn .elm-btn__white:hover {
@@ -314,7 +365,7 @@ body {
       .wrapper .about .about__content .title .ngan {
         text-align: justify !important;
         width: 60px;
-        border: 1px solid #858585;
+        border: 1px solid #c6c1c1;
         margin-bottom: 30px; }
       .wrapper .about .about__content .title .subtitle {
         margin: none !important;
@@ -410,6 +461,38 @@ body {
     width: 200px;
     height: 75px;
     object-fit: contain; }
+  .wrapper .partner .owl-nav .owl-prev {
+    background: #0984e3;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    left: -6%;
+    bottom: 35%;
+    transition: all 0.5s; }
+    .wrapper .partner .owl-nav .owl-prev span {
+      outline: none;
+      font-size: 30px;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      line-height: 33px; }
+  .wrapper .partner .owl-nav .owl-next {
+    background: #0984e3;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: -5%;
+    bottom: 35%;
+    transition: all 0.5s; }
+    .wrapper .partner .owl-nav .owl-next span {
+      outline: none;
+      font-size: 30px;
+      color: #fff;
+      width: 100%;
+      height: auto;
+      line-height: 33px; }
 .wrapper .promotion {
   background: #1857a3;
   padding: 10px; }
@@ -430,9 +513,13 @@ body {
     position: relative;
     top: 15px; }
     .wrapper .promotion .button-wrap:hover {
-      background: #20252B; }
+      background: #20252B;
+      transition: all ease 1.7s; }
       .wrapper .promotion .button-wrap:hover .wprt-button-white {
-        color: #fff; }
+        color: #fff;
+        -webkit-transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26);
+        -moz-transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26);
+        transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
     .wrapper .promotion .button-wrap .wprt-button-white {
       padding: 13px 40px;
       font-size: 13px;
@@ -442,9 +529,9 @@ body {
       background-color: transparent;
       text-decoration: none;
       display: inline-block;
-      -webkit-transition: all ease 0.3s;
-      -moz-transition: all ease 0.3s;
-      transition: all ease 0.3s; }
+      -webkit-transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26);
+      -moz-transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26);
+      transition: all 0.5s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
 .wrapper #footer {
   background: #20252b;
   font-size: 14px;
