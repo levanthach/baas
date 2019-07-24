@@ -750,12 +750,12 @@ body {
           padding: 4px 3px 2px 1px;
           cursor: pointer;
           transition: all 0.5s; }
-          .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2:hover a {
-            color: #1857a3;
-            text-decoration: none; }
           .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2 a {
             font-weight: 300;
-            color: #e7e7e9eb;
+            color: #e7e7e9eb !important;
+            text-decoration: none; }
+          .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2:hover a {
+            color: #1857a3;
             text-decoration: none; }
     .wrapper #footer .ft-widgets .ft-widgets__feed {
       color: #fff; }
