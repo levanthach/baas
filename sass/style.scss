@@ -134,6 +134,18 @@ $color-footer__text: #b1b1b1;
 		    top: 0;
 		}
 	} 
+
+	//Begin slide header
+	#demo{
+		.carousel-inner{
+			.carousel-item{
+				img{
+					min-width: 100%;
+				}
+			}
+		}
+	}
+	// End slide header
 	// end headerwrap
 	.services{
 		padding: 20px 0;
@@ -205,7 +217,7 @@ $color-footer__text: #b1b1b1;
 			position: relative;
 			.modal-video__img{
 				img{
-					max-width: 100%;
+					width: 100%;
 					height: auto;
 					object-fit: cover;
 				}
