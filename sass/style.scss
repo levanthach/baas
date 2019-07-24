@@ -27,7 +27,7 @@ $color-footer__text: #b1b1b1;
 }
 @mixin subtitle{
 	margin:none!important;
-	width: 520px;
+	max-width: 40em;
 	color: $color-text;
 	font-weight: 300;
 }
@@ -160,7 +160,7 @@ $color-footer__text: #b1b1b1;
 				@include ngan;
 			}
 			.subtitle{
-				width: 550px;
+				max-width: 40em;
 				margin:auto;
 				color: $color-text;
 			}
@@ -262,7 +262,7 @@ $color-footer__text: #b1b1b1;
 				}
 				.subtitle{
 					margin:none!important;
-					width: 520px;
+					max-width: 40em;
 					color: $color-text;
 				}
 			}
@@ -304,7 +304,7 @@ $color-footer__text: #b1b1b1;
 				@include ngan;
 			}
 			.subtitle{
-				width: 550px;
+				max-width: 40em;
 				margin:auto;
 				color: $color-text;
 			}

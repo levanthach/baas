@@ -79,7 +79,7 @@ body {
     margin: auto;
     margin-bottom: 10px; }
   .wrapper .services .title .subtitle {
-    width: 550px;
+    max-width: 40em;
     margin: auto;
     color: #777; }
   .wrapper .services .services__content {
@@ -155,7 +155,7 @@ body {
       margin-bottom: 10px; }
     .wrapper .row-why-us .why-content .title .subtitle {
       margin: none !important;
-      width: 520px;
+      max-width: 40em;
       color: #777; }
 .wrapper .section-space {
   background: #F7F7F7; }
@@ -190,7 +190,7 @@ body {
     margin: auto;
     margin-bottom: 10px; }
   .wrapper .gallery .title .subtitle {
-    width: 550px;
+    max-width: 40em;
     margin: auto;
     color: #777; }
   .wrapper .gallery .gallery-box {
@@ -371,7 +371,7 @@ body {
         margin-bottom: 30px; }
       .wrapper .about .about__content .title .subtitle {
         margin: none !important;
-        width: 520px;
+        max-width: 40em;
         color: #777;
         font-weight: 300;
         margin-bottom: 30px; }
@@ -401,7 +401,7 @@ body {
     margin-bottom: 10px; }
   .wrapper .feed-back .title .subtitle {
     margin: none !important;
-    width: 520px;
+    max-width: 40em;
     color: #777;
     font-weight: 300;
     margin: auto; }
