@@ -285,7 +285,7 @@ ul[data-menu-style="vertical"] li a:hover {
 
 /* Responsive Menu Styles
 ----------------------------------------*/
-/*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768" }) function*/
+/*Note: change the max-width asper your requirment and change the same in aceResponsiveMenu({resizeWidth: "768.98" }) function*/
 
 @media screen and (max-width: 768px) {
     .last-child{
@@ -294,6 +294,10 @@ ul[data-menu-style="vertical"] li a:hover {
     .demo {
         width:96%;
         padding:2%;
+    }
+    .navbar-expand-md {
+        -ms-flex-flow: column!important;
+        flex-flow: column!important;;
     }
     ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
     ul[data-menu-style="vertical"] li ul.sub-menu {
@@ -333,11 +337,11 @@ ul[data-menu-style="vertical"] li a:hover {
         width: 100%;
     }
     .ace-responsive-menu li ul.sub-menu li ul.sub-menu li a
-        {
+    {
         padding-left: 30px;
     }  
     .ace-responsive-menu li ul.sub-menu li ul.sub-menu li ul.sub-menu li a 
-       {
+    {
         padding-left: 50px;
     }  
     .ace-responsive-menu > li > ul.sub-menu {
