@@ -297,7 +297,7 @@ ul[data-menu-style="vertical"] li a:hover {
     }
     .navbar-expand-md {
         -ms-flex-flow: column!important;
-        flex-flow: column!important;;
+        flex-flow: column!important;
     }
     ul[data-menu-style="vertical"] , ul[data-menu-style="accordion"],
     ul[data-menu-style="vertical"] li ul.sub-menu {
