@@ -61,7 +61,7 @@ $mobile-width: 480px;
 $tablet-width: 768px; 
 $desktop-width: 1024px;  
 
-@mixin mobile { @media (max-width: #{$mobile-width - 1px}) {  //max-width: 479px
+@mixin mobile { @media (max-width: #{$mobile-width + 287px}) {  //max-width: 767px
   @content;   
  } 
 }  
@@ -72,7 +72,7 @@ $desktop-width: 1024px;
  } 
 }  
 
-@mixin desktop { @media (min-width: #{$desktop-width}) and (max-width: 1359px) {    //min-width:1024px
+@mixin desktop { @media (min-width: #{$desktop-width}) and (max-width: 1365px) {    //min-width:1024px
   @content;  
  } 
 }
@@ -94,7 +94,11 @@ $desktop-width: 1024px;
 					color: #8a8787;
 					font-weight: 300;
 					line-height: 30px;
+					@include tablet {
+						padding-left: 0;
+					}
 				}
+
 			}
 			.top-bar__social{
 				@include mobile {
@@ -257,6 +261,9 @@ $desktop-width: 1024px;
 			.desc{
 				color:$color-text;
 				margin-bottom: 4px;
+				@include tablet {
+					font-size: 14px;
+				}
 			}
 			.elm-btn{
 				padding-bottom: 50px;
@@ -281,7 +288,17 @@ $desktop-width: 1024px;
 			position: relative;
 			.modal-video__img{
 				img{
-					width: 100%;
+					@include tablet {
+						max-width: 106%!important;
+						height: 100%!important;
+						object-fit: cover;
+					}
+					@include desktop {
+						max-width: 106%!important;
+						height: 100%!important;
+						object-fit: cover;
+					}
+					max-width: 100%;
 					height: auto;
 					object-fit: cover;
 				}
@@ -295,6 +312,9 @@ $desktop-width: 1024px;
 					bottom: 46%;
 					left: 50%;
 					transform: translateX(-50%);
+					@include mobile {
+						bottom: 37%;
+					}
 					a{
 						i{
 							text-align: center;
@@ -314,6 +334,9 @@ $desktop-width: 1024px;
 			@include mobile {
 				padding-left: 35px;
 			}
+			@include tablet {
+				padding-left: 30px;
+			}
 			.title{
 				@include mobile{
 					padding-top: 1.5em!important;
@@ -331,7 +354,7 @@ $desktop-width: 1024px;
 					text-align: justify!important;
 					width: 60px;
 					border:1px solid #c6c1c1;
-					margin-bottom: 10px;
+					margin-bottom: 20px;
 				}
 				.subtitle{
 					margin:none!important;
@@ -371,6 +394,9 @@ $desktop-width: 1024px;
 				color: #777;
 				font-size: 14px;
 				margin-top: 10px;
+				@include tablet {
+					font-size: 13px;
+				}
 			}
 		}
 	}
@@ -644,6 +670,9 @@ $desktop-width: 1024px;
 		@include mobile {
 			margin-bottom: 0;
 		}
+		@include tablet {
+			margin-bottom: 0;
+		}
 		.about__img{
 			.photo{
 				img{
@@ -652,6 +681,11 @@ $desktop-width: 1024px;
 					box-shadow: 4px 8px 12px 0 #f7f2f2;
 					display: block;
 					transition: all .5s cubic-bezier(0.645, 0.045, 0.355, 1);
+					@include desktop {
+						width: auto;
+						max-width: 100%;
+						height: 100%;
+					}
 					&:hover{
 						opacity: 0.8;
 					}
@@ -663,6 +697,9 @@ $desktop-width: 1024px;
 			@include mobile {
 				padding-left: 20px;
 				padding-top: 30px;
+			}
+			@include tablet {
+				padding: 40px 15px;
 			}
 			.title{
 				@include mobile{
@@ -680,7 +717,7 @@ $desktop-width: 1024px;
 					text-align: justify !important;
 					width: 60px;
 					border: 1px solid #c6c1c1;
-					margin-bottom: 30px;
+					margin-bottom: 20px;
 					@include mobile {
 						margin-bottom: 10px;
 					}
@@ -803,6 +840,9 @@ $desktop-width: 1024px;
 					max-width: 200px;
 					height: 75px;
 					object-fit: contain;
+					@include tablet {
+						max-width: none;
+					}
 				}
 			}
 		}
@@ -816,6 +856,12 @@ $desktop-width: 1024px;
 			    left: -6%;
 			    bottom: 35%;
 			    transition: all 0.5s;
+			    @include tablet {
+			    	left: -2%;
+			    }
+			    @include desktop {
+			    	left: -3%;
+			    }
 			    span{
 			    	outline: none;
 			    	font-size: 30px;
@@ -834,6 +880,12 @@ $desktop-width: 1024px;
 			    right: -5%;
 			   	bottom: 35%;
 			    transition: all 0.5s;
+			    @include tablet {
+			    	right: -1%;
+			    }
+			    @include desktop {
+			    	right: -3%;
+			    }
 			    span{
 			    	outline: none;
 			    	font-size: 30px;
@@ -842,6 +894,7 @@ $desktop-width: 1024px;
 				    height: auto;
 				    line-height: 33px;
 			    }
+
 			}
 		}
 	} //end partner
@@ -867,6 +920,11 @@ $desktop-width: 1024px;
 						    float: right;
 						    width: 60%;
 						    text-align: center;
+						}
+						@include tablet {
+							font-size: 22px;
+						    top: 25px;
+						    left: 71px;
 						}
 					}
 					.icon{
@@ -909,6 +967,9 @@ $desktop-width: 1024px;
 				@include mobile {
 					padding: 10px 20px;
 				}
+				@include tablet {
+					padding: 13px 10px;
+				}
 			}
 		} //end button-wrap
 	}
@@ -920,6 +981,12 @@ $desktop-width: 1024px;
 		z-index: 1;
 		border-style: solid;
 		@include mobile {
+			padding: 50px 0 0;
+		}
+		@include tablet {
+			padding: 50px 0 0;
+		}
+		@include desktop {
 			padding: 50px 0 0;
 		}
 		.ft-widgets{
@@ -940,6 +1007,9 @@ $desktop-width: 1024px;
 						letter-spacing: 0.2px;
 						padding-top: 10px;
 						line-height: 25px;
+						@include desktop {
+							font-size: 12px;
+						}
 					}
 				} //end text-widgets
 				.icon-social-widget{
@@ -967,6 +1037,12 @@ $desktop-width: 1024px;
 										height: 38px;
 										line-height: 38px;
 										text-align: center;
+										@include desktop {
+											font-size: 15px;
+										    width: 35px;
+										    height: 35px;
+										    line-height: 35px;
+										}
 									}
 								} //end icon
 								.active{
@@ -996,10 +1072,14 @@ $desktop-width: 1024px;
 						padding: 4px 3px 2px 1px;
 						cursor: pointer;
 						transition: all 0.5s;
-						a{
+						.style2__link{
 							font-weight: 300;
 							color: #e7e7e9eb!important;
+							-ms-color: #e7e7e9eb!important;
 							text-decoration: none;
+							@include desktop {
+								font-size: 12px;
+							}
 						}
 						&:hover{
 							a{
@@ -1026,12 +1106,26 @@ $desktop-width: 1024px;
 				}
 				.widget-image{
 					.item{
+						@include tablet {
+							width: 5em!important;
+							margin-right: 17px;
+						}
+						@include desktop {
+							width: 4.5em;
+						    margin-right: 10px;
+						}
+						img {
+							@include desktop {
+								width: 5em;
+							}
+						}
 						margin: 5px;
 						&:hover{
 							img{
 								opacity: 0.5;
 							}
 						}
+						
 					}
 					
 				}
@@ -1040,6 +1134,9 @@ $desktop-width: 1024px;
 			.ft-widgets__contact{
 				color: $color-white;
 				@include mobile {
+					padding-left: 0!important;
+				}
+				@include tablet {
 					padding-left: 0!important;
 				}
 				.widget-title{
@@ -1058,6 +1155,9 @@ $desktop-width: 1024px;
 						border: 0;
 						.inner{
 							line-height: 30px;
+							@include desktop {
+								font-size: 12px;
+							}
 							.hl{
 								color: #e7e7e9eb;
 								font-weight: 300;
@@ -1089,5 +1189,17 @@ $desktop-width: 1024px;
 	} //end footer
 }
 
-
+.ace-responsive-menu > li > a {
+	@include desktop {
+		display: block;
+	    position: relative;
+	    margin: 0;
+	    border: 0px;
+	    padding: 18px 0px 18px 12px;
+	    text-decoration: none;
+	    font-size: 15px;
+	    font-weight: 300;
+	    color: #fff;
+	}
+}
 
