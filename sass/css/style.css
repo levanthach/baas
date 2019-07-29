@@ -315,7 +315,7 @@ body {
                   animation: text 0.3s ease; }
 @-webkit-keyframes text {
   from {
-    top: 39%; }
+    top: 19%; }
   to {
     top: 40%; } }
         .wrapper .gallery .gallery-box:hover .inner .hover-img .gallery-image:before {
@@ -979,4 +979,5 @@ body {
     font-size: 15px;
     font-weight: 300;
     color: #fff; } }
+
 /*# sourceMappingURL=style.css.map */
