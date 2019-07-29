@@ -37,9 +37,10 @@ ul {
     border: 0px;
     padding: 18px 20px 18px 12px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 300;
     color: #fff;
+    text-transform: uppercase;
 }
 .ace-responsive-menu li a i {
     padding-right: 5px;
@@ -107,6 +108,7 @@ ul {
     font-weight: normal;
     background: none;
     z-index: 9999;
+   /* text-transform: uppercase;*/
 }
 .ace-responsive-menu > li > ul.sub-menu > li {
     position: relative;
