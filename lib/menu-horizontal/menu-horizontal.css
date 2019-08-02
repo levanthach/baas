@@ -5,11 +5,14 @@ ul {
     margin: 0px;
     padding: 0px;
 }
+.navbar{
+    padding: 0!important;
+}
 .ace-responsive-menu {
     list-style: none;
-    margin: 0;
+    margin-left: 20px;
     padding: 0;
-    background: #1857a3;  
+    background: #fff;  
     float:left;
     width:100%;
     font-family: 'Roboto', sans-serif;       
@@ -28,39 +31,41 @@ ul {
     float: left;
 }
 .ace-responsive-menu li a {
-        color:#fff;
+    color:#488BD3;
 }
 .ace-responsive-menu > li > a {
     display: block;
     position: relative;
     margin: 0;
     border: 0px;
-    padding: 18px 20px 18px 12px;
+    padding: 23px 15px 18px 23px;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: 600;
-    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: "OpenSan";
+    color: #488BD3;
     text-transform: uppercase;
 }
 .ace-responsive-menu li a i {
     padding-right: 5px;
-    color: #fff;
+    color: #488BD3;
 }
 .ace-responsive-menu > li > a i {
     font-size: 16px;
     text-shadow: none;
-    color: #dfe6e9;
+    color: #488BD3;
 }
 .ace-responsive-menu li ul.sub-menu li a i {
     padding-right: 10px;
 }
 .ace-responsive-menu li.menu-active a:hover{
     transition: all 0.5s;
-    color: #CDDC39;
+    color: #fff;
+    background: #488BD3
 }
 .ace-responsive-menu li.menu-active a:hover i{
     transition: all 0.5s;
-    color: #CDDC39;
+    color: #fff;
 }
 
 
@@ -84,6 +89,7 @@ ul {
     content: "\f105" !important;
 }
 .ace-responsive-menu > li > ul.sub-menu {
+    border-top: 2px solid #488BD3;
     display: none;
     list-style: none;
     clear: both;
@@ -92,7 +98,7 @@ ul {
     z-index: 9888;
 }
 .ace-responsive-menu li ul.sub-menu {
-    background: #1857a3;
+    background: #fff;
 }
 .ace-responsive-menu li ul.sub-menu > li {
     width: 190px;
@@ -102,11 +108,12 @@ ul {
     margin: 0px 0px;
     padding: 12px 20px 12px 15px;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     position: relative;
     font-weight: normal;
     background: none;
     z-index: 9999;
+    font-family: "OpenSan";
    /* text-transform: uppercase;*/
 }
 .ace-responsive-menu > li > ul.sub-menu > li {
@@ -145,7 +152,7 @@ ul {
     display: none;
     float: left;
     width: 100%;
-    background: #1857a3;
+    background: #fff;
 }
 .menu-toggle h3 {
     float: left;
@@ -172,7 +179,7 @@ ul {
 }
 .menu-toggle #menu-btn {
     float: right;
-    background: #1857a3;
+    background: #488BD3;
     border: 1px solid #fff;
     padding: 8px;
     border-radius: 5px;
@@ -310,15 +317,16 @@ ul[data-menu-style="vertical"] li a:hover {
     }
     .ace-responsive-menu > li {
         border-bottom: 1px solid #fff;
-       float: none;
+        float: none;
     }   
     .ace-responsive-menu li a:hover {
-        color:#8BC34A ;
+        color:#fff ;
         position: relative;
         z-index: 9999;
+        background: #488BD3;
     }
     .ace-responsive-menu li a:hover i{
-        color:#8BC34A ;
+        color:#fff ;
     }
     .ace-responsive-menu > li:first-child {
         border-top: 1px solid #fff;
