@@ -27,15 +27,38 @@ body {
     letter-spacing: 2.8px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box; }
+    @media (max-width: 767px) {
+      .wrapper .header-wrap .top-bar {
+        text-align: left; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .wrapper .header-wrap .top-bar {
+        text-align: left; } }
     .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit {
       max-width: 100%;
       margin: auto; }
-      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit span {
-        font: 500 16px/19px "Acronis", "Open Sans", serif; }
-        .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit span strong {
+      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+        font: 500 16px/19px "Acronis", "Open Sans", serif;
+        margin-left: 8em; }
+        @media (max-width: 767px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (max-width: 320px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 12px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 1024px) and (max-width: 1365px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 9em;
+            font-size: 13px; } }
+        .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong {
           position: relative;
           padding: 0 76px 0 0; }
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit span strong::after {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
             content: "";
             width: 33px;
             height: 33px;
@@ -46,18 +69,46 @@ body {
             background-size: 33px;
             margin: 0;
             padding: 0; }
-      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit i {
+            @media (max-width: 767px) {
+              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                visibility: hidden;
+                opacity: 0; } }
+            @media (min-width: 768px) and (max-width: 1023px) {
+              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                visibility: hidden;
+                opacity: 0; } }
+      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+        margin-left: -10em;
         font-size: 17px;
         text-transform: none;
         font-style: normal;
         font-weight: 300;
         letter-spacing: normal; }
+        @media (max-width: 767px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (max-width: 320px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 1024px) and (max-width: 1365px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: -11em;
+            font-size: 13px; } }
   .wrapper .header-wrap .menu-header {
     background: #fff !important;
     border-bottom: 2px solid #1857a3; }
     @media (max-width: 767px) {
       .wrapper .header-wrap .menu-header .navbar {
         padding: .5rem 0rem; } }
+    @media (max-width: 767px) {
+      .wrapper .header-wrap .menu-header .navbar .menu-toggle a img {
+        padding: 5px; } }
   .wrapper .header-wrap .menu-fix {
     position: fixed;
     z-index: 999;
@@ -938,5 +989,4 @@ body {
       @media (max-width: 767px) {
         .wrapper #footer .ft-bottom .copyright {
           font-size: 13px; } }
-
 /*# sourceMappingURL=style.css.map */
