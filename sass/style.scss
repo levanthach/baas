@@ -1,11 +1,12 @@
 *{margin: 0; padding: 0;} 
 body {
 	font-family: 'Poppins', 'Open Sans' ,sans-serif;
-	overflow-x: hidden;
+	overflow-x: hidden!important;
 }
-// $color-menu: #1C63B8;
-$color-menu: #1857a3;
+// $color-main: #1C63B8;
+$color-main: #1857a3;
 $color-topbar:#F7F7F7;
+$color-text-menu: #488BD3;
 $color-title: #333333;
 $color-text:#777;
 $color-white:#fff;
@@ -36,7 +37,7 @@ $color-footer__text: #b1b1b1;
 	&::after{
 		width: 57px;
 		height: 2px;
-		background-color: $color-menu;
+		background-color: $color-main;
 		content: "";
 		position: absolute;
 		left: 0;
@@ -87,100 +88,122 @@ $desktop-width: 1024px;
 	}
 	.header-wrap{
 		.top-bar{
-			background: $color-topbar;
-			.top-bar__content{
-				display: inline;
-				.address{
-					padding-left: 5px;
-					position: relative;
-					left: 44px;
-					font-size: 14px;
-					color: #8a8787;
-					font-weight: 300;
-					line-height: 30px;
-					@include tablet {
-						padding-left: 0;
-					}
-				}
-
-			}
-			.top-bar__social{
-				@include iphone5{
-					left: 17vw!important;
-				}
-				@include mobile {
-					position: relative;
-				    padding: 3px 0;
-				    left: 23.5vw;
-				    float: left;
-				}
-				.text{
-					font-size: 14px;
-					color: #8a8787;
-					line-height: 30px;
-					font-weight: 300;
-					position: relative;
-					left:100px;
-					@include mobile {
-						display: none;
-					}
-					@include tablet {
-						display: none;
-					}
-					@include desktop {
-						display: none;
-					}
-				}
-				.icon-social{
-					margin-right: 10px;
-					transition: all 0.5s;
-					ul{
-						margin-bottom: 0!important;
-						display: inline;
-						float: right;
-						li{
-							list-style-type: none;
-							float: left;
-							a{
-								.icon{
-									margin-right: 10px;
-									&:hover{
-										i{
-											color: $color-white;
-											background: $color-menu;
-											border: 1px solid $color-menu;
-											transition: all 0.5s;
-										}
-									}
-									i{
-										transition: all 0.5s;
-										background: $color-white;
-										color: #8a8787;
-										border: 1px solid $color-white;
-										font-size: 14px;
-										width: 30px;
-										height: 30px;
-										line-height: 30px;
-										text-align: center;
-										border-radius: 50%;
-									}
-								}	
+			background: url('../../img/bg-topbar.png') no-repeat top center;
+			background-size: cover;
+			color: $color-white;
+			min-height: 60px;
+		    padding: 22px 0 0;
+		    position: relative;
+		    text-decoration: none;
+		    text-align: center;
+		    text-transform: uppercase;
+		    vertical-align: middle;
+		    letter-spacing: 2.8px;
+		    box-sizing: border-box;	
+		    @include mobile {
+		    	text-align: left;
+		    }	    
+		    @include tablet {
+		    	text-align: left;
+		    }	
+			.ribbon-global-cyber-summit{
+				max-width: 100%;
+				margin:auto;
+				.tiltle-advertisement{
+					span {
+						font: 500 16px/19px "Acronis", "Open Sans", serif;
+						margin-left: 8em;
+						@include mobile {
+							margin-left: 0;
+							font-size: 13px;
+						}
+						@include iphone5 {
+							margin-left: 0;
+							font-size: 12px;
+						}
+						@include tablet {
+							margin-left: 0;
+							font-size: 13px;
+						}
+						@include desktop {
+							margin-left: 9em;
+							font-size: 13px;
+						}
+						strong{
+							position: relative;
+	    					padding: 0 76px 0 0;
+							&::after{
+								content: "";
+							    width: 33px;
+							    height: 33px;
+							    position: absolute;
+							    top: -5px;
+							    right: 22px;
+							    background: url('../../img/arrow.png') no-repeat 0 0;
+							    background-size: 33px;
+							    margin: 0;
+							    padding: 0;
+							   	@include mobile {
+							   		visibility: hidden;
+							   		opacity: 0;
+							   	}  	
+							   	@include tablet {
+							   		visibility: hidden;
+							   		opacity: 0;
+							   	}
 							}
 						}
 					}
-
 				}
-			}
+				.slogan-advertisement{
+					i{
+						margin-left: -10em;
+						font-size: 17px;
+					    text-transform: none;
+					    font-style: normal;
+					    font-weight: 300;
+					    letter-spacing: normal;
+					    @include mobile {
+					    	margin-left: 0;
+					    	font-size: 13px;
+					    }   
+					    @include iphone5 {
+					    	margin-left: 0;
+					    	font-size: 13px;
+					    }  
+					    @include tablet {
+					    	margin-left: 0;
+					    	font-size: 13px;
+					    } 
+					    @include desktop {
+					    	margin-left: -11em;
+					    	font-size: 13px;
+					    }
+					}
+				}
+			
+			
+			} //end ribbon-global-cyber-summit
 		} //end topbar
 
 		.menu-header{
-			background: $color-menu!important;
-			border-bottom: 2px solid $color-white;	
+			background: $color-white!important;
+			border-bottom: 2px solid $color-main;	
 			.navbar{
 				@include mobile {
 					padding: .5rem 0rem;
 				}
+				.menu-toggle{
+					a{
+						img{
+							@include mobile {
+								padding: 5px;
+							}
+						}
+					}
+				}
 			}
+
 		} //end menu-header
 		.menu-fix{
 			position: fixed;
@@ -245,14 +268,14 @@ $desktop-width: 1024px;
 				border-radius: 50%;
 				transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 				&:hover{
-					background: $color-menu;
+					background: $color-main;
 					i{
 						color:$color-white;
 					}
 				}
 				i{
 					font-size: 40px;
-					color:$color-menu;
+					color:$color-main;
 					transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 				}
 			}
@@ -387,7 +410,7 @@ $desktop-width: 1024px;
 			}
 			.count-number{
 				letter-spacing: 1px;
-				color:$color-menu;
+				color:$color-main;
 				font-size: 2.5em;
 				font-weight: bold;
 			}
@@ -513,7 +536,7 @@ $desktop-width: 1024px;
 							width: 50px;
 							height: 50px;
 							margin:auto;
-							background: $color-menu;
+							background: $color-main;
 							cursor: pointer;
 							transition: all 0.8s;
 							&:hover{
@@ -542,7 +565,7 @@ $desktop-width: 1024px;
 							transition: all 0.4s;
 							text-decoration: none;
 							&:hover{
-								color:$color-menu!important;
+								color:$color-main!important;
 							}
 						}
 					} //end text__title
@@ -574,7 +597,7 @@ $desktop-width: 1024px;
 				    color: $color-white;
 				    width: 100%;
 				    height: auto;
-				    line-height: 33px;
+				    line-height: 31px;
 			    }
 			}
 			.owl-next{
@@ -592,7 +615,7 @@ $desktop-width: 1024px;
 				    color: $color-white;
 				    width: 100%;
 				    height: auto;
-				    line-height: 33px;
+				    line-height: 31px;
 			    }
 			}
 		}
@@ -607,7 +630,7 @@ $desktop-width: 1024px;
 		    top: 25px;
 		    transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26);
 		    &:hover{
-				background: $color-menu;
+				background: $color-main;
 				color: $color-white;
 				transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26);
 		    }
@@ -735,7 +758,7 @@ $desktop-width: 1024px;
 					margin-bottom: 30px;
 				}
 				.wprt-button.solid.accent{
-					background-color: $color-menu;
+					background-color: $color-main;
 					color: $color-white;
 					border-radius: 3px;
 					padding: 13px 30px;
@@ -906,7 +929,7 @@ $desktop-width: 1024px;
 		}
 	} //end partner
 	.promotion {
-		background: $color-menu;
+		background: $color-main;
 		padding:10px;
 		.inner{
 			.heading-wrap{
@@ -1032,8 +1055,8 @@ $desktop-width: 1024px;
 									transition: all 0.5s;
 									&:hover{
 										i{
-											background: $color-menu;
-											border: 1px solid $color-menu;
+											background: $color-main;
+											border: 1px solid $color-main;
 											transition: all 0.5s;
 										}
 									}
@@ -1053,8 +1076,8 @@ $desktop-width: 1024px;
 									}
 								} //end icon
 								.active{
-									background: $color-menu;
-									border-color: $color-menu!important;
+									background: $color-main;
+									border-color: $color-main!important;
 								}
 							}
 						}
@@ -1090,7 +1113,7 @@ $desktop-width: 1024px;
 						}
 						&:hover{
 							a{
-								color: $color-menu;
+								color: $color-main;
 								text-decoration: none;
 							}
 						}
@@ -1194,19 +1217,5 @@ $desktop-width: 1024px;
 			}
 		}
 	} //end footer
-}
-
-.ace-responsive-menu > li > a {
-	@include desktop {
-		display: block;
-	    position: relative;
-	    margin: 0;
-	    border: 0px;
-	    padding: 18px 0px 18px 12px;
-	    text-decoration: none;
-	    font-size: 12px;
-	    font-weight: 300;
-	    color: #fff;
-	}
 }
 

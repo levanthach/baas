@@ -5,7 +5,7 @@
 
 body {
   font-family: 'Poppins', 'Open Sans' ,sans-serif;
-  overflow-x: hidden; }
+  overflow-x: hidden !important; }
 
 /* Mixin */
 /* Set các giá trị với màn hình tương ứng */
@@ -14,82 +14,101 @@ body {
   .wrapper button {
     margin: auto; }
   .wrapper .header-wrap .top-bar {
-    background: #F7F7F7; }
-    .wrapper .header-wrap .top-bar .top-bar__content {
-      display: inline; }
-      .wrapper .header-wrap .top-bar .top-bar__content .address {
-        padding-left: 5px;
-        position: relative;
-        left: 44px;
-        font-size: 14px;
-        color: #8a8787;
-        font-weight: 300;
-        line-height: 30px; }
-        @media (min-width: 768px) and (max-width: 1023px) {
-          .wrapper .header-wrap .top-bar .top-bar__content .address {
-            padding-left: 0; } }
-    @media (max-width: 320px) {
-      .wrapper .header-wrap .top-bar .top-bar__social {
-        left: 17vw !important; } }
+    background: url("../../img/bg-topbar.png") no-repeat top center;
+    background-size: cover;
+    color: #fff;
+    min-height: 60px;
+    padding: 22px 0 0;
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    letter-spacing: 2.8px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
     @media (max-width: 767px) {
-      .wrapper .header-wrap .top-bar .top-bar__social {
-        position: relative;
-        padding: 3px 0;
-        left: 23.5vw;
-        float: left; } }
-    .wrapper .header-wrap .top-bar .top-bar__social .text {
-      font-size: 14px;
-      color: #8a8787;
-      line-height: 30px;
-      font-weight: 300;
-      position: relative;
-      left: 100px; }
-      @media (max-width: 767px) {
-        .wrapper .header-wrap .top-bar .top-bar__social .text {
-          display: none; } }
-      @media (min-width: 768px) and (max-width: 1023px) {
-        .wrapper .header-wrap .top-bar .top-bar__social .text {
-          display: none; } }
-      @media (min-width: 1024px) and (max-width: 1365px) {
-        .wrapper .header-wrap .top-bar .top-bar__social .text {
-          display: none; } }
-    .wrapper .header-wrap .top-bar .top-bar__social .icon-social {
-      margin-right: 10px;
-      -webkit-transition: all 0.5s;
-      transition: all 0.5s; }
-      .wrapper .header-wrap .top-bar .top-bar__social .icon-social ul {
-        margin-bottom: 0 !important;
-        display: inline;
-        float: right; }
-        .wrapper .header-wrap .top-bar .top-bar__social .icon-social ul li {
-          list-style-type: none;
-          float: left; }
-          .wrapper .header-wrap .top-bar .top-bar__social .icon-social ul li a .icon {
-            margin-right: 10px; }
-            .wrapper .header-wrap .top-bar .top-bar__social .icon-social ul li a .icon:hover i {
-              color: #fff;
-              background: #1857a3;
-              border: 1px solid #1857a3;
-              -webkit-transition: all 0.5s;
-              transition: all 0.5s; }
-            .wrapper .header-wrap .top-bar .top-bar__social .icon-social ul li a .icon i {
-              -webkit-transition: all 0.5s;
-              transition: all 0.5s;
-              background: #fff;
-              color: #8a8787;
-              border: 1px solid #fff;
-              font-size: 14px;
-              width: 30px;
-              height: 30px;
-              line-height: 30px;
-              text-align: center;
-              border-radius: 50%; }
+      .wrapper .header-wrap .top-bar {
+        text-align: left; } }
+    @media (min-width: 768px) and (max-width: 1023px) {
+      .wrapper .header-wrap .top-bar {
+        text-align: left; } }
+    .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit {
+      max-width: 100%;
+      margin: auto; }
+      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+        font: 500 16px/19px "Acronis", "Open Sans", serif;
+        margin-left: 8em; }
+        @media (max-width: 767px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (max-width: 320px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 12px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 1024px) and (max-width: 1365px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            margin-left: 9em;
+            font-size: 13px; } }
+        .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong {
+          position: relative;
+          padding: 0 76px 0 0; }
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+            content: "";
+            width: 33px;
+            height: 33px;
+            position: absolute;
+            top: -5px;
+            right: 22px;
+            background: url("../../img/arrow.png") no-repeat 0 0;
+            background-size: 33px;
+            margin: 0;
+            padding: 0; }
+            @media (max-width: 767px) {
+              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                visibility: hidden;
+                opacity: 0; } }
+            @media (min-width: 768px) and (max-width: 1023px) {
+              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                visibility: hidden;
+                opacity: 0; } }
+      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+        margin-left: -10em;
+        font-size: 17px;
+        text-transform: none;
+        font-style: normal;
+        font-weight: 300;
+        letter-spacing: normal; }
+        @media (max-width: 767px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (max-width: 320px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 768px) and (max-width: 1023px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: 0;
+            font-size: 13px; } }
+        @media (min-width: 1024px) and (max-width: 1365px) {
+          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: -11em;
+            font-size: 13px; } }
   .wrapper .header-wrap .menu-header {
-    background: #1857a3 !important;
-    border-bottom: 2px solid #fff; }
+    background: #fff !important;
+    border-bottom: 2px solid #1857a3; }
     @media (max-width: 767px) {
       .wrapper .header-wrap .menu-header .navbar {
         padding: .5rem 0rem; } }
+    @media (max-width: 767px) {
+      .wrapper .header-wrap .menu-header .navbar .menu-toggle a img {
+        padding: 5px; } }
   .wrapper .header-wrap .menu-fix {
     position: fixed;
     z-index: 999;
@@ -411,7 +430,7 @@ body {
         color: #fff;
         width: 100%;
         height: auto;
-        line-height: 33px; }
+        line-height: 31px; }
     .wrapper .gallery .owl-nav .owl-next {
       background: #0984e3;
       width: 35px;
@@ -428,7 +447,7 @@ body {
         color: #fff;
         width: 100%;
         height: auto;
-        line-height: 33px; }
+        line-height: 31px; }
     .wrapper .gallery .more-read {
       text-transform: uppercase;
       border-color: #dbdbdb;
@@ -970,17 +989,4 @@ body {
       @media (max-width: 767px) {
         .wrapper #footer .ft-bottom .copyright {
           font-size: 13px; } }
-
-@media (min-width: 1024px) and (max-width: 1365px) {
-  .ace-responsive-menu > li > a {
-    display: block;
-    position: relative;
-    margin: 0;
-    border: 0px;
-    padding: 18px 0px 18px 12px;
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: 300;
-    color: #fff; } }
-
 /*# sourceMappingURL=style.css.map */
