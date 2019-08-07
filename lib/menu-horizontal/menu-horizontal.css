@@ -1,5 +1,6 @@
 a {
     text-shadow: none;
+    color: #b1b1b1;
 }
 ul {
     margin: 0px;
@@ -39,7 +40,7 @@ ul {
     position: relative;
     margin: 0;
     border: 0px;
-    padding: 23px 15px 23px 23px;
+    padding: 20px 23px;
     text-decoration: none;
     font-size: 15px;
     font-weight: 700;
