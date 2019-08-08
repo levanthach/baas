@@ -68,7 +68,6 @@
 			selector: ".text__icon"
 		}); 
 	});
-	
 });
 
 (function ($) {
@@ -150,6 +149,31 @@
 	function formatter(value, settings) {
 		return value.toFixed(settings.decimals);
 	}
+	$(window).on('load', function(event) {
+		$('body').removeClass('preloading');
+	    $('.load').delay(1200).fadeOut('fast');
+	    $('.loader').delay(500).fadeOut('fast');
+	});
+	// hide #go-top first
+    $("#go-top").hide();
+    // fade in #go-top
+    $(function () {
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 90) {
+                $('#go-top').fadeIn();
+            } else {
+                $('#go-top').fadeOut();
+            }
+        });
+
+        // scroll body to 0px on click
+        $('#go-top').click(function () {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+    });
 }(jQuery));
 
 jQuery(function ($) {
@@ -168,4 +192,5 @@ jQuery(function ($) {
 	options = $.extend({}, options || {}, $this.data('countToOptions') || {});
 	$this.countTo(options);
   }
+
 });
