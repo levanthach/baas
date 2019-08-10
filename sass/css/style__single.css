@@ -192,7 +192,7 @@ img {
     background-repeat: no-repeat;
     background-image: url('../../img/icons_arconis/baas_sv/bg_for_video_2x.png')!important;
     background-size: cover;
-    padding: 150px;
+    padding: 100px 0 180px 0;
 }
 .ngan-partner{
     margin-top: 0!important;
@@ -272,6 +272,8 @@ img {
     width: 100px!important;  
     height: 100px!important;
 }
-=======
-
->>>>>>> develop
+.fa-play-video-bass{
+    top: 29%!important;
+    font-size: 44px!important;
+    left: 39px!important;
+}
