@@ -221,7 +221,9 @@ img {
     padding: 40px;
 }
 .light-blue{
-    background: #F4F9FF;
+    background-image: -webkit-linear-gradient(#f2f8ff, #f9fcff 62%, #fdfeff 95%, #fff);
+    background-image: -o-linear-gradient(#f2f8ff, #f9fcff 62%, #fdfeff 95%, #fff);
+    background-image: linear-gradient(#f2f8ff, #f9fcff 62%, #fdfeff 95%, #fff);
 }
 .p-blue{
     background: #D7E6FA;
@@ -276,4 +278,32 @@ img {
     top: 29%!important;
     font-size: 44px!important;
     left: 39px!important;
+}
+.p-des{
+    width: 85%;
+    margin: auto;
+}
+.slice-img-4 img {
+    display: block;
+    width: 48px;
+    height: 48px;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+.slice-img-4 .item {
+    margin-top: 48px;
+    padding-left: 56px;
+    position: relative;
+    text-align: left;
+    padding-top: 8px;
+}
+.item.first-row .subtitle{
+    display: block;
+    margin-bottom: 10px;
+    width: 
+}
+
+.row-product{
+    width: 85%;
 }
