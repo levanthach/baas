@@ -43,6 +43,9 @@ img {
     top: 0;
     padding: 25px 0;
 }
+.breadcrumb-trail a{
+    text-decoration: none;
+}
 .main-content{
 	text-align: justify;
 }
@@ -55,9 +58,11 @@ img {
 }
 .exist-subtitle ul{
     width: 88%;
+    margin:auto;
 }
 .margin-top-base ul{
     width: 88%;
+    margin:auto;
 }
 .blue-border{
     max-width: 224px;
@@ -77,4 +82,191 @@ img {
 .blue-border:hover{
     color: #fff;
     background-color: #4d94e0;
+}
+.p-des{
+    width: 82%;
+    font-size: 18px;
+    margin: auto;
+    line-height: 25px;
+}
+.icon_img{
+    width: 130px;
+    height: auto;
+    padding: 10px;
+}
+.related-documents li {
+    list-style-type: none;
+}
+/*-------sv_notary-------*/
+.top-base img{
+    width: 40%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.cell-container{
+    width: 85%;
+    margin: auto;
+}
+.cell-container img {
+    max-width: 70%;
+    height: auto;
+    margin-left: 20%;
+}
+.icon__small img{
+    width: 20%!important;
+}
+.slice-button-request{
+    background: #003075;
+    padding: 80px 0;
+    color: #fff;
+}
+
+.top-base img{
+    
+}
+.btn-request{
+    background: #8DB70E;
+    width: 260px;
+    margin:auto;
+    margin-top: 20px;
+    transition: all 0.5s;
+}
+.btn-request:hover{
+    background: #93bf0fd1;
+}
+.btn-request a{
+    color:#fff;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 12px 18px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+}
+.features-list{
+    width: 85%;
+    text-align: left;
+    margin:auto;
+}
+.slice-17 h2{
+    font-weight: 300;
+    padding-bottom: 20px;
+    width: 72%;
+    margin: auto;
+}
+.slice-bg-xanh{
+    background: #F2F8FF;
+}
+.icon-title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 96px;
+    height: 96px;
+}
+.feature{
+    padding-bottom: 40px;
+}
+.feature p{
+    padding-top: 20px;
+    clear: left;
+}
+.slice2-top img{
+    width: 28%;
+}
+.bg-slice-drass{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icons_arconis/drass_sv/bg_drass_sv.png')!important;
+    background-size: cover;
+    padding: 120px;
+}
+.bg-slice-baas{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../../img/icons_arconis/baas_sv/bg_for_video_2x.png')!important;
+    background-size: cover;
+    padding: 150px;
+}
+.ngan-partner{
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+.bg-sync-slice-last img {
+    position: relative;
+    top:70px;
+}
+.subtitle-ul{
+    text-align: left;
+    padding: 10px 0;
+    float: left;
+    font-weight: 500;
+}
+.text-ul ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    text-align: left;
+}
+
+/*sv_baas*/
+.slice-5{
+    padding: 40px;
+}
+.light-blue{
+    background: #F4F9FF;
+}
+.p-blue{
+    background: #D7E6FA;
+}
+.container-inner{
+    max-width: 500px;
+    width: 100%;
+    padding: 56px 16px 88px;
+
+}
+.margin-top-base ul li{
+    margin-top: 8px;
+    list-style-type: none;
+}
+.margin-top-base ul li:before{
+    content: "\2022";
+    position: absolute;
+    left: 16px;
+    color: inherit;
+    font-size: 15px;
+}
+.feature-baas{
+    padding-bottom: 20px;
+}
+.feature-baas p{
+    padding-top: 10px;
+    clear: left;
+}
+.sv_customer{
+    margin-top: 15px;
+}
+.sv_custommer ul{
+    margin-top: 16px;
+    margin-left: 15px;
+}
+.sv_custommer ul li:before{
+    content: "\2022";
+    position: absolute;
+    left: 16px;
+    color: inherit;
+    font-size: 15px;
+}
+.sv_custommer ul li {
+    list-style-type: none;
+}
+.icon-play-video-baas{
+    top:0;
+    width: 100px!important;  
+    height: 100px!important;
 }

@@ -912,7 +912,7 @@ body {
               .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2 .style2__link {
                 font-size: 12px; } }
           .wrapper #footer .ft-widgets .ft-widgets__link .widget-link .style2:hover a {
-            color: #1857a3;
+            color: #1857a3 !important;
             text-decoration: none; }
     .wrapper #footer .ft-widgets .ft-widgets__feed {
       color: #fff; }

@@ -1136,7 +1136,7 @@ $desktop-width: 1024px;
 						}
 						&:hover{
 							a{
-								color: $color-main;
+								color: $color-main!important;
 								text-decoration: none;
 							}
 						}
