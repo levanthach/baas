@@ -50,6 +50,7 @@ img {
 	text-align: justify;
 }
 
+
 /*services*/
 /*-------sv_sync-------*/
 .slice-4{
@@ -83,6 +84,7 @@ img {
     color: #fff;
     background-color: #4d94e0;
 }
+<<<<<<< HEAD
 .p-des{
     width: 82%;
     font-size: 18px;
@@ -270,3 +272,6 @@ img {
     width: 100px!important;  
     height: 100px!important;
 }
+=======
+
+>>>>>>> develop
