@@ -148,7 +148,7 @@ body {
       position: absolute;
       z-index: 10;
       left: 10%;
-      top: 40%; }
+      top: 35%; }
       .wrapper .slider .text-slider .hero-description {
         font-family: Gotham;
         font-size: 12px;
@@ -199,7 +199,7 @@ body {
           display: inline-block;
           text-decoration: none; }
     .wrapper .slider .owl-slider .item img {
-      height: 635px;
+      height: 80vh;
       -o-object-fit: cover;
          object-fit: cover; }
   .wrapper .services {

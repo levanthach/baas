@@ -11,7 +11,12 @@ img {
 	background: #F7F7F7;
 }
 .breadcrumb-bg img{
-    min-width: 100%;
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
 }
 #featured-title {
 	position: relative;
