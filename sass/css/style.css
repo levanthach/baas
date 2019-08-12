@@ -142,6 +142,10 @@ body {
         @media (max-width: 767px) {
           .wrapper header .header-wrap .menu-header .navbar .menu-toggle a img {
             padding: 5px; } }
+        .wrapper header .header-wrap .menu-header .navbar #respMenu li a .icon-img {
+          width: 16px;
+          height: 16px;
+          margin-right: 9px; }
       .wrapper header .header-wrap .menu-fix {
         position: fixed;
         z-index: 999;

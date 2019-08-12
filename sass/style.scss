@@ -238,6 +238,17 @@ $desktop-width: 1024px;
 							}
 						}
 					}
+					#respMenu{
+						li{
+							a{
+								.icon-img{
+									width: 16px;
+									height: 16px;
+									margin-right: 9px;
+								}
+							}
+						}
+					}
 				}
 
 			} //end menu-header

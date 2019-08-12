@@ -40,7 +40,7 @@ ul {
     position: relative;
     margin: 0;
     border: 0px;
-    padding: 20px 23px;
+    padding: 20px 21px;
     text-decoration: none;
     font-size: 15px;
     font-weight: 700;
@@ -341,7 +341,7 @@ ul[data-menu-style="vertical"] li a:hover {
     }    
     .ace-responsive-menu > li > a i {
         padding-right: 10px;
-        color: #fff;
+        color: #488BD3;
     }
     .ace-responsive-menu > li > a > .arrow:before {
         float: right;
