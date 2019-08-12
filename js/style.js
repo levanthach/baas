@@ -197,9 +197,10 @@
     });
     // text-slider
    	var typed = new Typed('#typist-element', {
-	    strings: ["San Design", "Creative Lover", "Blogger", "Photographer", "Writer"],
+	    strings: ["BaaS", "Cloud", "Backup", "Services"],
 	    typeSpeed: 150,
-	    loop:true
+	    loop:true,
+	    showCursor: false,
     });
 }(jQuery));
 

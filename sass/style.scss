@@ -252,7 +252,7 @@ $desktop-width: 1024px;
 			position: absolute;
 			z-index: 10;
 			left:10%;
-			top:40%;
+			top:35%;
 			.hero-description{
 				font-family: Gotham;
 				font-size: 12px;
@@ -312,7 +312,7 @@ $desktop-width: 1024px;
 		.owl-slider{
 			.item{
 				img{
-					height: 635px;
+					height: 80vh;
 					object-fit: cover;
 				}
 			}
