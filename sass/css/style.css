@@ -7,6 +7,11 @@ body {
   font-family: 'Poppins', 'Open Sans' ,sans-serif;
   overflow-x: hidden !important; }
 
+@font-face {
+  font-family: Libe;
+  src: url("../../lib/fonts/LiebeDoris/LiebeFonts_Liebe.Doris.otf");
+  font-weight: 400;
+  font-style: normal; }
 /* Mixin */
 /* Set các giá trị với màn hình tương ứng */
 .preloading {
@@ -137,13 +142,66 @@ body {
     left: 0;
     right: 0;
     top: 0; }
-  .wrapper #demo .carousel-inner {
-    height: 500px; }
-    @media (max-width: 767px) {
-      .wrapper #demo .carousel-inner {
-        height: 300px; } }
-    .wrapper #demo .carousel-inner .carousel-item img {
-      min-width: 100%; }
+  .wrapper .slider {
+    position: relative; }
+    .wrapper .slider .text-slider {
+      position: absolute;
+      z-index: 10;
+      left: 10%;
+      top: 40%; }
+      .wrapper .slider .text-slider .hero-description {
+        font-family: Gotham;
+        font-size: 12px;
+        color: #fff; }
+      .wrapper .slider .text-slider .ut-word-rotator {
+        font-family: Libe;
+        font-size: 80px;
+        margin-left: 15px;
+        color: #fff; }
+        .wrapper .slider .text-slider .ut-word-rotator span {
+          color: #8d1a0c; }
+        .wrapper .slider .text-slider .ut-word-rotator::before {
+          content: '';
+          width: 3px;
+          height: 100px;
+          background: #fff;
+          position: absolute;
+          top: 30px;
+          left: 0;
+          margin-right: 30px; }
+        .wrapper .slider .text-slider .ut-word-rotator::after {
+          content: '';
+          width: 3px;
+          height: 100px;
+          background: #fff;
+          position: absolute;
+          top: 30px;
+          right: -15px; }
+      .wrapper .slider .text-slider .hero-btn-holder {
+        display: block;
+        margin-top: 20px;
+        border: 2px solid white;
+        width: 110px;
+        background: #1857a3;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s; }
+        .wrapper .slider .text-slider .hero-btn-holder:hover {
+          background-color: #585353c9;
+          -webkit-transition: all 0.5s;
+          transition: all 0.5s; }
+        .wrapper .slider .text-slider .hero-btn-holder a {
+          font-weight: boild;
+          color: #fff;
+          padding: 1em;
+          font-size: 12px;
+          font-family: sans-serif;
+          text-align: center;
+          display: inline-block;
+          text-decoration: none; }
+    .wrapper .slider .owl-slider .item img {
+      height: 635px;
+      -o-object-fit: cover;
+         object-fit: cover; }
   .wrapper .services {
     padding: 20px 0;
     background: #F7F7F7; }

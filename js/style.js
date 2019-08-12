@@ -39,6 +39,27 @@
 	        }
 	    }
 	});	
+	// slider
+	$('.owl-carousel.owl-slider').owlCarousel({
+	    loop:true,
+	    margin:10,
+	    dots:false,
+	    animateOut: 'fadeOut',
+	    autoplay: true,
+	    nav:false,
+	    autoplayTimeout:3000,
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:1
+	        },
+	        1000:{
+	            items:1
+	        }
+	    }
+	})
 
 	//owl-partner
 	$('.owl-carousel.owl-partner').owlCarousel({
@@ -173,6 +194,12 @@
             }, 800);
             return false;
         });
+    });
+    // text-slider
+   	var typed = new Typed('#typist-element', {
+	    strings: ["San Design", "Creative Lover", "Blogger", "Photographer", "Writer"],
+	    typeSpeed: 150,
+	    loop:true
     });
 }(jQuery));
 
