@@ -40,168 +40,175 @@ body {
   overflow-x: hidden; }
   .wrapper button {
     margin: auto; }
-  .wrapper .header-wrap .top-bar {
-    background: url("../../img/bg-topbar.png") no-repeat top center;
-    background-size: cover;
-    color: #fff;
-    min-height: 60px;
-    padding: 22px 0 0;
-    position: relative;
-    text-decoration: none;
-    text-align: center;
-    text-transform: uppercase;
-    vertical-align: middle;
-    letter-spacing: 2.8px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-    @media (max-width: 767px) {
-      .wrapper .header-wrap .top-bar {
-        text-align: left; } }
-    @media (min-width: 768px) and (max-width: 1023px) {
-      .wrapper .header-wrap .top-bar {
-        text-align: left; } }
-    .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit {
-      max-width: 100%;
-      margin: auto; }
-      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
-        font: 500 16px/19px "Acronis", "Open Sans", serif;
-        margin-left: 8em; }
+  .wrapper header {
+    height: 100%; }
+    .wrapper header .header-wrap {
+      height: 20%; }
+      .wrapper header .header-wrap .top-bar {
+        height: 50%;
+        background: url("../../img/bg-topbar.png") no-repeat top center;
+        background-size: cover;
+        color: #fff;
+        min-height: 60px;
+        padding: 22px 0 0;
+        position: relative;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        vertical-align: middle;
+        letter-spacing: 2.8px;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box; }
         @media (max-width: 767px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
-            margin-left: 0;
-            font-size: 13px; } }
-        @media (max-width: 320px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
-            margin-left: 0;
-            font-size: 12px; } }
+          .wrapper header .header-wrap .top-bar {
+            text-align: left; } }
         @media (min-width: 768px) and (max-width: 1023px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
-            margin-left: 0;
-            font-size: 13px; } }
-        @media (min-width: 1024px) and (max-width: 1365px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
-            margin-left: 9em;
-            font-size: 13px; } }
-        .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong {
-          position: relative;
-          padding: 0 76px 0 0; }
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
-            content: "";
-            width: 33px;
-            height: 33px;
-            position: absolute;
-            top: -5px;
-            right: 22px;
-            background: url("../../img/arrow.png") no-repeat 0 0;
-            background-size: 33px;
-            margin: 0;
-            padding: 0; }
+          .wrapper header .header-wrap .top-bar {
+            text-align: left; } }
+        .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit {
+          max-width: 100%;
+          margin: auto; }
+          .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+            font: 500 16px/19px "Acronis", "Open Sans", serif;
+            margin-left: 8em; }
             @media (max-width: 767px) {
-              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
-                visibility: hidden;
-                opacity: 0; } }
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+                margin-left: 0;
+                font-size: 13px; } }
+            @media (max-width: 320px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+                margin-left: 0;
+                font-size: 12px; } }
             @media (min-width: 768px) and (max-width: 1023px) {
-              .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
-                visibility: hidden;
-                opacity: 0; } }
-      .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
-        margin-left: -10em;
-        font-size: 17px;
-        text-transform: none;
-        font-style: normal;
-        font-weight: 300;
-        letter-spacing: normal; }
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+                margin-left: 0;
+                font-size: 13px; } }
+            @media (min-width: 1024px) and (max-width: 1365px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
+                margin-left: 9em;
+                font-size: 13px; } }
+            .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong {
+              position: relative;
+              padding: 0 76px 0 0; }
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                content: "";
+                width: 33px;
+                height: 33px;
+                position: absolute;
+                top: -5px;
+                right: 22px;
+                background: url("../../img/arrow.png") no-repeat 0 0;
+                background-size: 33px;
+                margin: 0;
+                padding: 0; }
+                @media (max-width: 767px) {
+                  .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                    visibility: hidden;
+                    opacity: 0; } }
+                @media (min-width: 768px) and (max-width: 1023px) {
+                  .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span strong::after {
+                    visibility: hidden;
+                    opacity: 0; } }
+          .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+            margin-left: -10em;
+            font-size: 17px;
+            text-transform: none;
+            font-style: normal;
+            font-weight: 300;
+            letter-spacing: normal; }
+            @media (max-width: 767px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+                margin-left: 0;
+                font-size: 13px; } }
+            @media (max-width: 320px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+                margin-left: 0;
+                font-size: 13px; } }
+            @media (min-width: 768px) and (max-width: 1023px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+                margin-left: 0;
+                font-size: 13px; } }
+            @media (min-width: 1024px) and (max-width: 1365px) {
+              .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
+                margin-left: -11em;
+                font-size: 13px; } }
+      .wrapper header .header-wrap .menu-header {
+        height: 50%;
+        background: #fff !important;
+        border-bottom: 2px solid #1857a3; }
         @media (max-width: 767px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
-            margin-left: 0;
-            font-size: 13px; } }
-        @media (max-width: 320px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
-            margin-left: 0;
-            font-size: 13px; } }
-        @media (min-width: 768px) and (max-width: 1023px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
-            margin-left: 0;
-            font-size: 13px; } }
-        @media (min-width: 1024px) and (max-width: 1365px) {
-          .wrapper .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
-            margin-left: -11em;
-            font-size: 13px; } }
-  .wrapper .header-wrap .menu-header {
-    background: #fff !important;
-    border-bottom: 2px solid #1857a3; }
-    @media (max-width: 767px) {
-      .wrapper .header-wrap .menu-header .navbar {
-        padding: .5rem 0rem; } }
-    @media (max-width: 767px) {
-      .wrapper .header-wrap .menu-header .navbar .menu-toggle a img {
-        padding: 5px; } }
-  .wrapper .header-wrap .menu-fix {
-    position: fixed;
-    z-index: 999;
-    left: 0;
-    right: 0;
-    top: 0; }
-  .wrapper .slider {
-    position: relative; }
-    .wrapper .slider .text-slider {
-      position: absolute;
-      z-index: 10;
-      left: 10%;
-      top: 35%; }
-      .wrapper .slider .text-slider .hero-description {
-        font-family: Gotham;
-        font-size: 12px;
-        color: #fff; }
-      .wrapper .slider .text-slider .ut-word-rotator {
-        font-family: Libe;
-        font-size: 80px;
-        margin-left: 15px;
-        color: #fff; }
-        .wrapper .slider .text-slider .ut-word-rotator span {
-          color: #8d1a0c; }
-        .wrapper .slider .text-slider .ut-word-rotator::before {
-          content: '';
-          width: 3px;
-          height: 100px;
-          background: #fff;
-          position: absolute;
-          top: 30px;
-          left: 0;
-          margin-right: 30px; }
-        .wrapper .slider .text-slider .ut-word-rotator::after {
-          content: '';
-          width: 3px;
-          height: 100px;
-          background: #fff;
-          position: absolute;
-          top: 30px;
-          right: -15px; }
-      .wrapper .slider .text-slider .hero-btn-holder {
-        display: block;
-        margin-top: 20px;
-        border: 2px solid white;
-        width: 110px;
-        background: #1857a3;
-        -webkit-transition: all 0.5s;
-        transition: all 0.5s; }
-        .wrapper .slider .text-slider .hero-btn-holder:hover {
-          background-color: #585353c9;
+          .wrapper header .header-wrap .menu-header .navbar {
+            padding: .5rem 0rem; } }
+        @media (max-width: 767px) {
+          .wrapper header .header-wrap .menu-header .navbar .menu-toggle a img {
+            padding: 5px; } }
+      .wrapper header .header-wrap .menu-fix {
+        position: fixed;
+        z-index: 999;
+        left: 0;
+        right: 0;
+        top: 0; }
+    .wrapper header .slider {
+      height: 80%;
+      position: relative; }
+      .wrapper header .slider .text-slider {
+        position: absolute;
+        z-index: 10;
+        left: 10%;
+        top: 35%; }
+        .wrapper header .slider .text-slider .hero-description {
+          font-family: Gotham;
+          font-size: 12px;
+          color: #fff; }
+        .wrapper header .slider .text-slider .ut-word-rotator {
+          font-family: Libe;
+          font-size: 80px;
+          margin-left: 15px;
+          color: #fff; }
+          .wrapper header .slider .text-slider .ut-word-rotator span {
+            color: #8d1a0c; }
+          .wrapper header .slider .text-slider .ut-word-rotator::before {
+            content: '';
+            width: 3px;
+            height: 100px;
+            background: #fff;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            margin-right: 30px; }
+          .wrapper header .slider .text-slider .ut-word-rotator::after {
+            content: '';
+            width: 3px;
+            height: 100px;
+            background: #fff;
+            position: absolute;
+            top: 30px;
+            right: -15px; }
+        .wrapper header .slider .text-slider .hero-btn-holder {
+          display: block;
+          margin-top: 20px;
+          border: 2px solid white;
+          width: 110px;
+          background: #1857a3;
           -webkit-transition: all 0.5s;
           transition: all 0.5s; }
-        .wrapper .slider .text-slider .hero-btn-holder a {
-          font-weight: boild;
-          color: #fff;
-          padding: 1em;
-          font-size: 12px;
-          font-family: sans-serif;
-          text-align: center;
-          display: inline-block;
-          text-decoration: none; }
-    .wrapper .slider .owl-slider .item img {
-      height: 80vh;
-      -o-object-fit: cover;
-         object-fit: cover; }
+          .wrapper header .slider .text-slider .hero-btn-holder:hover {
+            background-color: #585353c9;
+            -webkit-transition: all 0.5s;
+            transition: all 0.5s; }
+          .wrapper header .slider .text-slider .hero-btn-holder a {
+            font-weight: boild;
+            color: #fff;
+            padding: 1em;
+            font-size: 12px;
+            font-family: sans-serif;
+            text-align: center;
+            display: inline-block;
+            text-decoration: none; }
+      .wrapper header .slider .owl-slider .item img {
+        height: 80vh;
+        -o-object-fit: cover;
+           object-fit: cover; }
   .wrapper .services {
     padding: 20px 0;
     background: #F7F7F7; }
