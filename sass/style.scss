@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;} 
 body {
-	font-family: 'Poppins', 'Open Sans' ,sans-serif;
+	font-family: 'Poppins','RobRoboto Slab', 'Open Sans' ,sans-serif;
 	overflow-x: hidden!important;
 }
 @font-face {
@@ -39,6 +39,7 @@ $color-footer__text: #b1b1b1;
 	max-width: 40em;
 	color: $color-text;
 	font-weight: 300;
+	font-family: 'RobRoboto Slab';
 }
 @mixin title-footer{
 	text-transform: uppercase;
@@ -357,8 +358,11 @@ $desktop-width: 1024px;
 				@include ngan;
 			}
 			.subtitle{
-				max-width: 40em;
-				margin:auto;
+				max-width: 38em;
+			    margin: auto;
+			    font-size: 18px;
+			    font-weight: 500;
+			    font-family: 'RobRoboto Slab';
 				color: $color-text;
 				@include mobile {
 					max-width: 20em;
@@ -376,37 +380,56 @@ $desktop-width: 1024px;
 				border-radius: 50%;
 				transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 				&:hover{
-					background: $color-main;
-					i{
-						color:$color-white;
+					background: #e1e4eae6;
+					img{
+						color: $color-main;
 					}
 				}
-				i{
-					font-size: 40px;
-					color:$color-main;
+				.icon-title{
+				    width: 90px;
+	   				height: 90px;
+	    			line-height: 90px;
+				    padding: 18px;
+				    margin-bottom: 20px;
 					transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 				}
 			}
 			.heading {
-				font-size: 16px;
+				text-transform: uppercase; 	
+				font-size: 18px;
 				line-height: 26px;
 				margin-top: 21px;
 				margin-bottom: 12px;
+				font-family: 'RobRoboto Slab';
+				font-weight: bold;
+
 				@include mobile {
 					font-size: 22px!important;
 				}
 			}
 			.desc{
+				font-family: 'RobRoboto Slab';
 				color:$color-text;
 				margin-bottom: 4px;
+				height: 155px;
+				text-align: justify;
+				@include mobile {
+					text-align: center;
+					height: auto;	
+				}
 				@include tablet {
 					font-size: 14px;
 				}
 			}
 			.elm-btn{
 				padding-bottom: 50px;
+				text-align: justify;
 				@include mobile {
 					padding-bottom: 20px;
+					text-align: center;
+				}
+				@include desktop {
+					text-align: justify;
 				}
 				a{
 					font-size: 13px;
@@ -423,9 +446,11 @@ $desktop-width: 1024px;
 	}//end services
 	.row-why-us{
 		.modal-video{
+			min-height: 100%;
 			position: relative;
 			.modal-video__img{
 				img{
+
 					@include tablet {
 						max-width: 106%!important;
 						height: 100%!important;
@@ -437,7 +462,7 @@ $desktop-width: 1024px;
 						object-fit: cover;
 					}
 					max-width: 100%;
-					height: auto;
+					height: 100%;
 					object-fit: cover;
 				}
 				.icon-play-video{
@@ -451,7 +476,7 @@ $desktop-width: 1024px;
 					left: 50%;
 					transform: translateX(-50%);
 					@include mobile {
-						bottom: 37%;
+						bottom: 43%;
 					}
 					a{
 						i{
@@ -467,10 +492,9 @@ $desktop-width: 1024px;
 		} 
 		// end modal video
 		.why-content{
-			padding-left: 65px;
-			padding-top: 35px;
+			padding: 25px 55px 0 50px;
 			@include mobile {
-				padding-left: 35px;
+				padding: 25px 30px 0 50px;
 			}
 			@include tablet {
 				padding-left: 30px;
@@ -495,8 +519,10 @@ $desktop-width: 1024px;
 					margin-bottom: 20px;
 				}
 				.subtitle{
+					font-family: 'RobRoboto Slab';
 					margin:none!important;
 					max-width: 90%!important;
+					font-size: 17px;
 					color: $color-text;
 					@include mobile {
 						max-width: 17em;
@@ -1173,7 +1199,7 @@ $desktop-width: 1024px;
 										font-size: 16px;
 										width: 38px;
 										height: 38px;
-										line-height: 38px;
+										line-height: 36px;
 										text-align: center;
 										@include desktop {
 											font-size: 15px;
