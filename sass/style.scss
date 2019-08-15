@@ -378,7 +378,7 @@ $desktop-width: 1024px;
 				margin:auto;
 				border: 1px solid $color-text;
 				border-radius: 50%;
-				transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
+				transition: all 0.4s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 				&:hover{
 					background: #e1e4eae6;
 					img{
