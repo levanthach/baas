@@ -443,3 +443,66 @@ img {
     font-family: auto;
     font-weight: 700;
 }
+.address i{
+    color: #1857A3;
+}
+
+/*Page single sv_migration*/
+.container-inner2{
+    max-width: 522px;
+    width: 100%;
+    padding: 56px 16px 45px;
+}
+.br-table{
+    border: 1px solid #cacaca;
+    padding: 10px;
+}
+.table-note{
+    background: #f5efdb;
+    padding: 15px;
+    color: #8a701b;
+    clear: both;
+    overflow: hidden;
+    margin: 15px 0;
+    font-size: 14px;
+}
+.block-tit {
+    background: #00204d url(../../img/logo_baas.png) no-repeat right;
+    padding: 10px;
+}
+.block-tit h3 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+.block-ctn {
+    padding: 30px;
+    border: 1px solid #cacaca;
+}
+.bg-grey {
+    background: #ededed;
+    font-family: 'elle-futura-bold', sans-sarif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.fa-check-circle{
+    margin-right: 10px;
+    font-size: 18px;
+    color: #29a0da;
+}
+.mid-block h3,h4 {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
+.bot-block h3 {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans';
+}
