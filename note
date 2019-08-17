@@ -205,3 +205,325 @@
 				<img src="img/slider3.png" alt="slider3">
 			</div>
 		</div>
+
+
+
+<div class="col-xs-12 col-md-6 filter-by-cat" >
+						<div class="block-inner clearfix">
+							<h2 class="block-title">Solutions for Service Providers</h2>
+							<div id="accordion">
+								<div class="card">
+									<div class="card-header active" id="hidecollapse">
+										<a class="card-link" data-toggle="collapse" href="#collapse" style="color: #fff;">
+											Acronis Cyber Cloud
+										</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse16">
+											General
+										</a>
+									</div>
+									<div id="collapse16" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse17">
+											Management Portal
+										</a>
+									</div>
+									<div id="collapse17" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse18">
+											Backup & Disaster Recovery
+										</a>
+									</div>
+									<div id="collapse18" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse19">
+											File Sync & Share
+										</a>
+									</div>
+									<div id="collapse19" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse20">
+											Notary
+										</a>
+									</div>
+									<div id="collapse20" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse21">
+											Physical Data Shipping
+										</a>
+									</div>
+									<div id="collapse21" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 12.5</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Backup 11.7</li></a>
+												
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse22">
+											Integration references
+										</a>
+									</div>
+									<div id="collapse22" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">ExtremeZ-IP</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								<br>
+								<div class="card">
+									<div class="card-header active" id="hidecollapse">
+										<a class="card-link" data-toggle="collapse" href="#collapse" style="color: #fff;">
+											Acronis Software-Defined Infrastructure/Cyber Infrastructure
+										</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse23">
+											Acronis Cyber Infrastructure 3.0
+										</a>
+									</div>
+									<div id="collapse23" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse24">
+											Acronis Software-Defined Infrastructure 2.5
+										</a>
+									</div>
+									<div id="collapse24" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<br>
+								<h2 class="block-title">Disk Management</h2>
+								<div class="card">
+									<div class="card-header active" id="hidecollapse">
+										<a class="card-link" data-toggle="collapse" href="#collapse" style="color: #fff;">
+											Acronis Disk Director
+										</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse25">
+											Acronis Disk Director 12.5
+										</a>
+									</div>
+									<div id="collapse25" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+								
+								<h2 class="block-title">System Deployment</h2>
+								<div class="card">
+									<div class="card-header active">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse26" style="color: #fff;">
+											Acronis Snap Deploy 5
+										</a>
+									</div>
+								</div>
+								<div id="collapse26" class="collapse" data-parent="#accordion">
+									<div class="card-body">
+										<ul>
+											<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+											<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+											<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+											<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+										</ul>
+									</div>
+								</div>
+								<h2 class="block-title">Access solutions </h2>
+								<div class="card">
+									<div class="card-header active" id="hidecollapse">
+										<a class="card-link" data-toggle="collapse" href="#collapse" style="color: #fff;">
+											Enterprise Mobility Solutions
+										</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse27">
+											Acronis Files Advanced
+										</a>
+									</div>
+									<div id="collapse27" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse28">
+											Acronis Files iOS Client
+										</a>
+									</div>
+									<div id="collapse28" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>	
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse29">
+											Acronis Files Android Client
+										</a>
+									</div>
+									<div id="collapse29" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<br>
+								<div class="card">
+									<div class="card-header active" id="hidecollapse">
+										<a class="card-link" data-toggle="collapse" href="#collapse" style="color: #fff;">
+											Mac Enterprise Integration Solutions
+										</a>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse30">
+											Acronis Files Connect
+										</a>
+									</div>
+									<div id="collapse30" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header">
+										<a class="card-link collapsed" data-toggle="collapse" href="#collapse31">
+											MassTransit
+										</a>
+									</div>
+									<div id="collapse31" class="collapse" data-parent="#accordion">
+										<div class="card-body">
+											<ul>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2017</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2016</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis True Image 2014</li></a>
+												<a href=""><li class="menu-depth menu-item">Acronis Disk Director</li></a>
+											</ul>
+										</div>
+									</div>
+								</div>
+
+								
+								
+								
+							</div><!--  end accordion -->
+						</div>
+					</div> <!-- end col-md-3 filter-by-cat-->

@@ -387,6 +387,27 @@ img {
 .card-header:hover{
     background: #d6e7ff;
 }
+    
+
+.card-header a:after{
+    font-family:'Glyphicons Halflings';
+    content:"\2212";
+    float: right;
+    color: grey;
+}
+#hidecollapse a:after{
+   display: none;
+}
+.card-header a:after  {
+    font-family:'Glyphicons Halflings';
+    content:"\2212";
+    float: right;
+    color: grey;
+}
+.card-header a.collapsed:after {
+    content:"\2b";
+}
+
 .card-link{
     color: #4D94E0;
 }
