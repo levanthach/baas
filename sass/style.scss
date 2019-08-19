@@ -71,6 +71,7 @@ $mobile-width: 480px;
 $tablet-width: 768px; 
 $desktop-width: 1024px;  
 
+
 @mixin mobile { @media (max-width: #{$mobile-width + 287px}) {  //max-width: 767px
   @content;   
  } 
@@ -411,8 +412,8 @@ $desktop-width: 1024px;
 				font-family: 'RobRoboto Slab';
 				color:$color-text;
 				margin-bottom: 4px;
-				height: 155px;
-				text-align: justify;
+				height: 10em;
+				text-align: center;
 				@include mobile {
 					text-align: center;
 					height: auto;	
@@ -423,13 +424,10 @@ $desktop-width: 1024px;
 			}
 			.elm-btn{
 				padding-bottom: 50px;
-				text-align: justify;
+				text-align: center;
 				@include mobile {
 					padding-bottom: 20px;
-					text-align: center;
-				}
-				@include desktop {
-					text-align: justify;
+					
 				}
 				a{
 					font-size: 13px;

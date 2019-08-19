@@ -279,8 +279,8 @@ body {
         font-family: 'RobRoboto Slab';
         color: #777;
         margin-bottom: 4px;
-        height: 155px;
-        text-align: justify; }
+        height: 10em;
+        text-align: center; }
         @media (max-width: 767px) {
           .wrapper .services .services__content .desc {
             text-align: center;
@@ -290,14 +290,10 @@ body {
             font-size: 14px; } }
       .wrapper .services .services__content .elm-btn {
         padding-bottom: 50px;
-        text-align: justify; }
+        text-align: center; }
         @media (max-width: 767px) {
           .wrapper .services .services__content .elm-btn {
-            padding-bottom: 20px;
-            text-align: center; } }
-        @media (min-width: 1024px) and (max-width: 1365px) {
-          .wrapper .services .services__content .elm-btn {
-            text-align: justify; } }
+            padding-bottom: 20px; } }
         .wrapper .services .services__content .elm-btn a {
           font-size: 13px;
           font-weight: 500;
