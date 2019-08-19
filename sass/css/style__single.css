@@ -344,7 +344,9 @@ img {
     font-size: 27px;
     color: #000;
     font-weight: 500;
-    margin: 10px 0 20px 0;
+    margin: 10px 0;
+    text-align: left;
+    font-size: 23px;
 }
 .field-content{
     color: #4d94e0;
@@ -420,7 +422,6 @@ img {
     display: block;
     text-align: left;
     padding: 12px 16px;
-    text-decoration: none;
     border-bottom: 1px solid #d6e7ff;
 
 }
@@ -466,6 +467,10 @@ img {
 }
 .address i{
     color: #1857A3;
+}
+.customer-support .card-body ul a li{
+    background: url('../../img/icon-pdf.png') no-repeat left center;
+    padding-left: 25px;
 }
 
 /*Page single sv_migration*/
