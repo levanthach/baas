@@ -237,6 +237,9 @@ $desktop-width: 1024px;
 								@include mobile {
 									padding: 5px;
 								}
+								@include tablet {
+									padding: 5px;
+								}
 							}
 						}
 					}
