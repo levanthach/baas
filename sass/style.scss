@@ -638,9 +638,10 @@ $desktop-width: 1024px;
 				
 			}
 			.inner{
-				position: relative;
+				
 				.hover-img{
 					.gallery-image{
+						position: relative;
 						&:before{
 							content: '';
 							width: 100%;
