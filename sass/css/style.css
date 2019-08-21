@@ -464,7 +464,7 @@ body {
     top: 100%; }
   to {
     top: 0%; } }
-      .wrapper .gallery .gallery-box .inner {
+      .wrapper .gallery .gallery-box .inner .hover-img .gallery-image {
         position: relative; }
         .wrapper .gallery .gallery-box .inner .hover-img .gallery-image:before {
           content: '';
@@ -479,49 +479,49 @@ body {
         .wrapper .gallery .gallery-box .inner .hover-img .gallery-image img {
           width: 100% !important;
           background-size: cover; }
-        .wrapper .gallery .gallery-box .inner .hover-img .text {
-          -webkit-transition: all 0.5s;
-          transition: all 0.5s;
-          visibility: hidden;
-          opacity: 0;
-          position: absolute;
-          text-align: center;
+      .wrapper .gallery .gallery-box .inner .hover-img .text {
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        left: 50%;
+        top: 40%;
+        -webkit-transform: translateX(-50%);
+                transform: translateX(-50%); }
+        .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon {
+          width: 50px;
+          height: 50px;
           margin: auto;
-          width: 100%;
-          left: 50%;
-          top: 40%;
-          -webkit-transform: translateX(-50%);
-                  transform: translateX(-50%); }
-          .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon {
-            width: 50px;
-            height: 50px;
+          background: #1857a3;
+          cursor: pointer;
+          -webkit-transition: all 0.8s;
+          transition: all 0.8s; }
+          .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover {
+            background: #fff !important; }
+            .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover i {
+              color: #333 !important; }
+          .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon i {
+            color: #fff;
+            font-size: 20px;
             margin: auto;
-            background: #1857a3;
-            cursor: pointer;
-            -webkit-transition: all 0.8s;
-            transition: all 0.8s; }
-            .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover {
-              background: #fff !important; }
-              .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon:hover i {
-                color: #333 !important; }
-            .wrapper .gallery .gallery-box .inner .hover-img .text .text__icon i {
-              color: #fff;
-              font-size: 20px;
-              margin: auto;
-              position: relative;
-              top: 14px;
-              -webkit-transition: all 0.4s;
-              transition: all 0.4s; }
-        .wrapper .gallery .gallery-box .inner .hover-img .text__title a {
-          color: #fff !important;
-          font-size: 16px !important;
-          font-weight: 600;
-          text-transform: uppercase;
-          -webkit-transition: all 0.4s;
-          transition: all 0.4s;
-          text-decoration: none; }
-          .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
-            color: #1857a3 !important; }
+            position: relative;
+            top: 14px;
+            -webkit-transition: all 0.4s;
+            transition: all 0.4s; }
+      .wrapper .gallery .gallery-box .inner .hover-img .text__title a {
+        color: #fff !important;
+        font-size: 16px !important;
+        font-weight: 600;
+        text-transform: uppercase;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+        text-decoration: none; }
+        .wrapper .gallery .gallery-box .inner .hover-img .text__title a:hover {
+          color: #1857a3 !important; }
     .wrapper .gallery .owl-nav .owl-prev {
       background: #0984e3;
       width: 35px;
@@ -1125,5 +1125,4 @@ a#go-top {
       left: 0;
       top: 28%;
       text-align: center; }
-
 /*# sourceMappingURL=style.css.map */
