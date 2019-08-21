@@ -1,3 +1,3 @@
 # baas
 Baas.vn
-Back up and services. We are proviced backup services 
+Back up and services. We are provided backup services 
