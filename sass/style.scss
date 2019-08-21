@@ -139,6 +139,7 @@ $desktop-width: 1024px;
 			    box-sizing: border-box;	
 			    @include mobile {
 			    	text-align: left;
+			    	padding: 10px;
 			    }	    
 			    @include tablet {
 			    	text-align: left;
