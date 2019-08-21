@@ -89,7 +89,7 @@ img {
     color: #fff;
     background-color: #4d94e0;
 }
-<<<<<<< HEAD
+
 .p-des{
     width: 82%;
     font-size: 18px;
@@ -103,6 +103,146 @@ img {
 }
 .related-documents li {
     list-style-type: none;
+}
+.text{
+    padding-top: 10px;
+}
+/*Responsive */
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    #featured-title .featured-title-heading {
+        font-size: 19px;
+    }
+    .breadcrumb-trail{
+        padding:17px 10px;
+        font-size: 15px;
+    }
+    .slice-17{
+        min-width: 90%!important;
+        margin:auto;
+        padding: 1.5rem!important;
+    }
+    .slice-17 h2{
+        font-size: 23px;
+        padding-bottom: 10px!important;
+        width: 100%!important;
+        font-weight: 400!important;
+    } 
+    .name{
+        font-weight: 400!important;
+    }
+
+    .p-des{
+        min-width: 100%!important;
+        font-size: 16px;
+    }
+    .subtitle{
+        font-weight: 500!important;
+    }
+    .slice-4,.slice-5{
+        padding: 35px!important;
+    }
+    .head-tittle h2{
+        font-size: 23px;
+        margin-bottom: 1rem!important;
+    }
+    .bg-sync-slice-last img{
+        top:10px!important;
+    }
+    .block-ele h2{
+        font-size: 29.5px!important;
+    }
+    .media-content img{
+        max-width: 100%;
+    }
+    .feature{
+        padding-bottom: 0px!important;
+    }
+    .feature p{
+        padding-top: 8px!important;
+    }
+    .features-list {
+        width: 100%!important;
+    }
+    .feature-baas{
+        padding-bottom: 10px!important;
+    }
+    .bg-slice-drass{
+        padding:30px!important;
+    }
+    .subtitle-ul {
+        padding: 10px!important;
+    }
+    .container-inner{
+        padding: 65px!important;
+    }
+    .container-inner h2{
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 5px!important;
+    }
+
+    .margin-top-base ul li {
+        text-align: left;
+    }
+    .slice-img-4 .item{
+        padding-left: 0!important;
+        position: static!important;
+    }
+    .text{
+        padding-top: 0px!important;
+    }
+    .row-product{
+        width: 100%!important;
+    }
+    .slice-img-4 img{
+        margin-left: 15px!important;
+    }
+    .cyber-cloud{
+        width: 100%!important;
+    }
+    .card-header{
+        text-align: left!important;
+    }
+    #page-title{
+        margin: 0 20px!important;
+        padding: 20px 0!important;
+        font-size: 30px!important;
+    }
+    .container-inner2{
+        padding: 40px!important;
+    }
+    .p-blue img{
+        max-width: 100%;
+        padding: 20px 20px 0px 20px!important;
+    }
+    .block-tit h3{
+        font-size: 12px!important;
+    }
+    .table-mobile {
+        overflow: auto;
+        white-space: nowrap;
+    }
+    .contact__form{
+        margin: 0px 20px 40px!important;
+    }
+    .address{
+        font-size: 15px!important;
+    }
+    .title-contact{
+        font-size: 27px!important;
+    }
+    .block-title{
+        font-size: 35px!important;
+        margin-bottom: 0px!important;
+        padding: 10px 0;
+    }
+    .blog-view-video .modal-video__img img{
+        min-width: 100%;
+        object-fit: cover;
+    }
+    .video-tutorial .icon-play-video{
+        top:40%!important;
+    }
 }
 /*-------sv_notary-------*/
 .top-base img{
@@ -234,7 +374,7 @@ img {
     background: #D7E6FA;
 }
 .container-inner{
-    max-width: 500px;
+    max-width: 448px;
     width: 100%;
     padding: 56px 16px 88px;
 
@@ -280,9 +420,9 @@ img {
     height: 100px!important;
 }
 .fa-play-video-bass{
-    top: 29%!important;
+    top: 27%!important;
     font-size: 44px!important;
-    left: 39px!important;
+    left: 35px!important;
 }
 .p-des{
     width: 85%;
