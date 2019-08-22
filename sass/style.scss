@@ -41,6 +41,7 @@ $color-footer__text: #b1b1b1;
 	font-weight: 300;
 	font-family: 'RobRoboto Slab';
 }
+
 @mixin title-footer{
 	text-transform: uppercase;
 	&::after{
@@ -143,6 +144,7 @@ $desktop-width: 1024px;
 			    }	    
 			    @include tablet {
 			    	text-align: left;
+			    	padding:10px!important;
 			    }	
 				.ribbon-global-cyber-summit{
 					max-width: 100%;
@@ -267,7 +269,7 @@ $desktop-width: 1024px;
 			}
 		} 
 		//Begin slide header
-		.slider{
+		.slider {
 			height: 80%;
 			position: relative;
 			.text-slider{
@@ -346,14 +348,63 @@ $desktop-width: 1024px;
 					}
 				}
 			} //end text-slier
+			// &:hover{}
 			.owl-slider{
+				.owl-nav{
+					margin-top: 0!important;
+					.owl-prev{
+					    width: 35px;
+					    height: 70px;
+					    background-color: rgba(0,0,0,0.7);
+					  	opacity: 0.9;
+					    color: #fff;
+					    outline: none;
+					    position: absolute;
+					    top: 35%;
+					    left: 0;
+					    margin:0!important;
+
+					    @include mobile {
+					    	display: none;
+					    } 
+					    @include tablet {
+					    	 top: 45%;
+					    }
+					    span{
+					    	font-size: 25px;
+					    	font-weight: lighter;
+					    }
+					}
+					.owl-next{
+					   	width: 35px;
+					    height: 70px;
+					    background-color: rgba(0,0,0,0.7);
+					   	opacity: 0.9;
+					    color: #fff;
+					    outline: none;
+					    position: absolute;
+					    top: 35%;
+					    right: 0;
+					    margin:0!important;
+					    @include mobile {
+					    	display: none;
+					    } 
+					    @include tablet {
+					    	 top: 45%;
+					    }
+					    span{
+					    	font-size: 25px;
+					    	font-weight: lighter;
+					    }
+					}
+				}
 				.item{
 					img{
 						height: 80vh;
 						object-fit: cover;
 					}
 				}
-			}
+			} //end owl-slider
 		} //end slider
 	// End slide header
 	// end headerwrap
@@ -439,6 +490,7 @@ $desktop-width: 1024px;
 				}
 				@include tablet {
 					font-size: 14px;
+					height: 85px;
 				}
 			}
 			.elm-btn{
@@ -467,19 +519,18 @@ $desktop-width: 1024px;
 			position: relative;
 			.modal-video__img{
 				img{
-
 					@include tablet {
-						max-width: 106%!important;
-						height: 100%!important;
+						min-width: 100%!important;
+						min-height: 100%!important;
 						object-fit: cover;
 					}
 					@include desktop {
-						max-width: 106%!important;
-						height: 100%!important;
+						min-width: 100%;
+						min-height: 100%;
 						object-fit: cover;
 					}
-					max-width: 100%;
-					height: 100%;
+					min-width: 100%;
+					min-height: 100%;
 					object-fit: cover;
 				}
 				.icon-play-video{
@@ -514,10 +565,10 @@ $desktop-width: 1024px;
 				padding: 25px 30px 0 50px;
 			}
 			@include tablet {
-				padding-left: 30px;
+				padding: 60px;
 			}
 			.title{
-				@include mobile{
+				@include mobile {
 					padding-top: 1.5em!important;
 				}
 				text-align: justify!important;
@@ -665,9 +716,6 @@ $desktop-width: 1024px;
 							visibility: hidden;
 							opacity: 0;
 							transition: all 0,5s;
-							@include mobile {
-								transition: all 0,1s!important;
-							}
 						}
 						img {
 
@@ -987,9 +1035,11 @@ $desktop-width: 1024px;
 					font-size: 15px;
 					line-height: 30px;
 					margin-top:3em;
-					p{
+					.maxim{
 						padding: 10px 20px 0 20px;
 						text-align: center;
+						font-family: 'RobRoboto Slab';
+						font-size: 16px;
 					}
 					.name-pos{
 						font-style: normal;
@@ -998,6 +1048,7 @@ $desktop-width: 1024px;
 							color:#333;
 							font-size: 16px;
 							font-weight: 600;
+							font-family: 'RobRoboto Slab';
 							text-transform: uppercase;
 						}
 						.position{
@@ -1078,9 +1129,9 @@ $desktop-width: 1024px;
 				    height: auto;
 				    line-height: 33px;
 			    }
-
 			}
 		}
+		
 	} //end partner
 	.promotion {
 		background: $color-main;
@@ -1393,4 +1444,7 @@ a#go-top {
 		    text-align: center;
     	}
     }
+}
+.owl-theme .owl-dots .owl-dot{
+	outline:none!important;
 }
