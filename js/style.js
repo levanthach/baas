@@ -44,10 +44,10 @@
 	    loop:true,
 	    margin:10,
 	    dots:false,
+	    nav:true,
 	    animateOut: 'fadeOut',
 	    autoplay: true,
-	    nav:false,
-	    autoplayTimeout:3000,
+	    autoplayTimeout:5000,
 	    responsive:{
 	        0:{
 	            items:1
