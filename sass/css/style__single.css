@@ -1,6 +1,6 @@
 *{margin: 0; padding: 0;} 
 body {
-	font-family: 'Poppins', 'Open Sans' ,sans-serif;
+	font-family: 'RobRoboto Slab','Poppins', 'Open Sans' ,sans-serif;
 	overflow-x: hidden;
 }
 img {
@@ -671,4 +671,63 @@ img {
     margin-bottom: 20px;
     font-weight: bold;
     font-family: 'Open Sans';
+}
+/*page hop tac*/
+.slice-img-hoptac {
+    font-family: 'RobRoboto Slab'!important;
+}
+.slice-img-hoptac img{
+    width: 54px;
+    height: auto;
+    top:15px;
+}
+.slice-img-hoptac .item{
+    padding-left: 73px;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+.slice-img-hoptac .item.first-row .subtitle{
+    font-size: 27px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.slice-img-hoptac .text{
+    padding-top: 4px;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.table-hoptac tr th{
+    font-weight: 700!important;
+    font-family: 'RobRoboto Slab'!important;
+    vertical-align: middle!important;
+    font-size: 18px;
+}
+.table-hoptac li {
+    margin-left: 15px;
+    padding: 10px;
+}
+.partner-with-acronis-block{
+    font-family: 'RobRoboto Slab'!important;
+    padding: 60px;
+    background: #4d94e0;
+}
+.partner-with-acronis-block h2{
+    color:#fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 36px;
+}
+.button-partner a{
+    padding: 16px 60px;
+    text-decoration: none;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-color: #9bc225;
+    margin: auto;
+    background-color: #9bc225;
 }
