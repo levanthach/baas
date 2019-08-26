@@ -232,7 +232,7 @@ img {
         font-size: 27px!important;
     }
     .block-title{
-        font-size: 35px!important;
+        font-size: 23px!important;
         margin-bottom: 0px!important;
         padding: 10px 0;
     }
@@ -459,7 +459,7 @@ img {
 
 }
 #page-title{
-    margin: 0 auto 40px;
+    margin-left: 122px;
     padding: 45px 0;
     width: 960px;
     font-size: 41px;
