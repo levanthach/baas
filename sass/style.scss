@@ -564,7 +564,7 @@ $desktop-width: 1024px;
 		} 
 		// end modal video
 		.why-content{
-			padding: 45px 35px 40px 35px;
+			padding: 45px 35px 0px 35px;
 			@include mobile {
 				padding: 25px 30px 0 50px;
 			}
@@ -1215,7 +1215,7 @@ $desktop-width: 1024px;
 	#footer{
 		background: $color-footer;
 		font-size: 14px;
-		padding: 80px 0 0;
+		padding: 70px 0 0;
 		position: relative;
 		z-index: 1;
 		border-style: solid;
