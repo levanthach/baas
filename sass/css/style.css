@@ -80,7 +80,7 @@ body {
             @media (max-width: 320px) {
               .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
                 margin-left: 0;
-                font-size: 12px; } }
+                font-size: 10.5px; } }
             @media (min-width: 768px) and (max-width: 1023px) {
               .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .tiltle-advertisement span {
                 margin-left: 0;
@@ -125,7 +125,7 @@ body {
             @media (max-width: 320px) {
               .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
                 margin-left: 0;
-                font-size: 13px; } }
+                font-size: 12px; } }
             @media (min-width: 768px) and (max-width: 1023px) {
               .wrapper header .header-wrap .top-bar .ribbon-global-cyber-summit .slogan-advertisement i {
                 margin-left: 0;
@@ -372,6 +372,9 @@ body {
       min-height: 100%;
       -o-object-fit: cover;
          object-fit: cover; }
+      @media (max-width: 767px) {
+        .wrapper .row-why-us .modal-video .modal-video__img img {
+          max-width: 100% !important; } }
       @media (min-width: 768px) and (max-width: 1023px) {
         .wrapper .row-why-us .modal-video .modal-video__img img {
           min-width: 100% !important;
@@ -391,13 +394,13 @@ body {
       border: 1px solid #fff;
       border-radius: 50%;
       position: absolute;
-      bottom: 46%;
+      bottom: 44%;
       left: 50%;
       -webkit-transform: translateX(-50%);
               transform: translateX(-50%); }
       @media (max-width: 767px) {
         .wrapper .row-why-us .modal-video .modal-video__img .icon-play-video {
-          bottom: 43%; } }
+          bottom: 37%; } }
       .wrapper .row-why-us .modal-video .modal-video__img .icon-play-video a i {
         text-align: center;
         position: absolute;
@@ -405,7 +408,7 @@ body {
         font-size: 21px;
         left: 27px; }
   .wrapper .row-why-us .why-content {
-    padding: 25px 55px 0 50px; }
+    padding: 45px 35px 40px 35px; }
     @media (max-width: 767px) {
       .wrapper .row-why-us .why-content {
         padding: 25px 30px 0 50px; } }
