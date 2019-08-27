@@ -202,6 +202,8 @@
 	    loop:true,
 	    showCursor: false,
     });
+
+    // popup form page hoptac
 }(jQuery));
 
 jQuery(function ($) {
