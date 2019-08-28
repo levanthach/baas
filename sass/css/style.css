@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  font-family: 'Poppins','RobRoboto Slab', 'Open Sans' ,sans-serif;
+  font-family: 'RobRoboto Slab', 'Poppins', 'Open Sans' ,sans-serif;
   overflow-x: hidden !important; }
 
 @font-face {
@@ -441,6 +441,10 @@ body {
         @media (max-width: 767px) {
           .wrapper .row-why-us .why-content .title .subtitle {
             max-width: 17em; } }
+    .wrapper .row-why-us .why-content .proces-bar .name-pro {
+      font-family: "RobRoboto Slab" !important;
+      font-size: 18px;
+      font-weight: 500; }
   .wrapper .section-space {
     background: #F7F7F7; }
     .wrapper .section-space .fun-box {
