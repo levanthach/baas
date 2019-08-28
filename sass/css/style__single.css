@@ -234,7 +234,9 @@ img {
     }
     .address{
         font-size: 15px!important;
+       
     }
+  
     .title-contact{
         font-size: 27px!important;
     }
@@ -500,9 +502,7 @@ img {
 
 }
 #page-title{
-    margin-left: 122px;
     padding: 45px 0;
-    width: 960px;
     font-size: 41px;
     line-height: 52px;
     color: #609fc5;
@@ -645,6 +645,10 @@ img {
     text-transform: uppercase;
     font-family: auto;
     font-weight: 700;
+}
+.contact .services_img .address{
+    font-family: 'RobRoboto Slab'!important;
+    font-size: 17px;
 }
 .address i{
     color: #1857A3;
@@ -804,16 +808,20 @@ img {
 }
 
 .table-hoptac tr th{
-    font-weight: 700!important;
+    font-weight: 600!important;
     font-family: 'RobRoboto Slab'!important;
     vertical-align: middle!important;
-    font-size: 19px;
+    font-size: 16.5px;
     text-align: center;
 }
 .table-hoptac li {
     margin-left: 20px;
-    padding: 10px 0;
+    padding: 5px 0;
+    font-size: 17px;
     list-style: circle;
+}
+.table-bordered{
+      font-family: 'RobRoboto Slab'!important;
 }
 .partner-with-acronis-block{
     font-family: 'RobRoboto Slab'!important;
@@ -822,6 +830,7 @@ img {
 }
 .partner-with-acronis-block h2{
     color:#fff;
+    font-family: 'RobRoboto Slab'!important;
     text-transform: uppercase;
     font-size: 30px;
     line-height: 40px;
