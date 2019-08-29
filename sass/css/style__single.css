@@ -1,7 +1,12 @@
 *{margin: 0; padding: 0;} 
 body {
-	font-family: 'RobRoboto Slab','Poppins', 'Open Sans' ,sans-serif;
+	font-family: 'RobRoboto Slab'!important;
+    font-family: 'Poppins', 'Open Sans' ,sans-serif;
 	overflow-x: hidden;
+}
+p{
+    font-size: 19px;
+    margin-bottom: 30px!important;
 }
 img {
 	height: auto;
@@ -124,7 +129,7 @@ img {
         font-size: 15px;
     }
     .slice-17{
-        min-width: 90%!important;
+        width: 100%!important;
         margin:auto;
         padding: 1.5rem!important;
     }
@@ -141,6 +146,7 @@ img {
     .p-des{
         min-width: 100%!important;
         font-size: 16px;
+        text-align: justify;
     }
     .subtitle{
         font-weight: 500!important;
@@ -157,6 +163,7 @@ img {
     }
     .block-ele h2{
         font-size: 29.5px!important;
+        margin: 3rem 0 20px!important;
     }
     .media-content img{
         max-width: 100%;
@@ -286,6 +293,9 @@ img {
     .page-hoptac img{
         height: auto!important;
     }
+    .customer-notary{
+        width: 100%!important;
+    }
 }
 /*-------sv_notary-------*/
 .top-base img{
@@ -310,9 +320,22 @@ img {
     padding: 80px 0;
     color: #fff;
 }
-
-.top-base img{
-
+.slice-button-request h2{
+    font-size: 40px;
+}
+.related-documents li a{
+    font-size: 20px;
+    color: #0056b3!important;
+    text-decoration: underline!important;
+}
+.related-documents li a:hover{
+    font-size: 20px;
+    text-decoration: none!important;
+}
+.related-documents li a img{
+    width: 30px;
+    height: auto;
+    margin-bottom: 12px;
 }
 .btn-request{
     background: #8DB70E;
@@ -320,6 +343,10 @@ img {
     margin:auto;
     margin-top: 20px;
     transition: all 0.5s;
+}
+.customer-notary{
+    width: 90%;
+    margin:auto;
 }
 .btn-request:hover{
     background: #93bf0fd1;
@@ -331,7 +358,7 @@ img {
     cursor: pointer;
     display: inline-block;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     padding: 12px 18px;
     line-height: 1;
     text-align: center;
@@ -343,11 +370,17 @@ img {
     margin:auto;
 }
 .slice-17 h2{
-    font-weight: 300;
+    font-weight: 600;
     padding-bottom: 20px;
     width: 72%;
     margin: auto;
+    text-transform: uppercase;
+    font-size: 30px;
 }
+.subtitle strong{
+    font-size: 19px;
+}
+
 .slice-bg-xanh{
     background: #F2F8FF;
 }
