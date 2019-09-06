@@ -4,10 +4,10 @@ body {
     font-family: 'Poppins', 'Open Sans' ,sans-serif;
 	overflow-x: hidden;
 }
-p{
+/*p{
     font-size: 19px;
     margin-bottom: 30px!important;
-}
+}*/
 img {
 	height: auto;
 	object-fit: cover;
@@ -23,6 +23,56 @@ img {
     display: block;
     margin-left:auto;
     margin-right: auto;
+}
+.block-banner-sv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.title-long{
+    color: #fff;
+    margin-top: 270px;
+    width: 90%;
+}
+.product-logo img{
+    width: 100px!important;
+    height: auto!important;
+}
+.product-desc{
+    color: #fff;
+    text-align: center;
+}
+.company-logo{
+    font-size: 40px;
+    font-family: serif;
+}
+.product-name {
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+}
+.phone-number {
+    display: block;
+    font-size: 24px;
+    line-height: 32px;
+    background: #99C906;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    padding: 12px 18px;
+
+}
+.purchase-container{
+    margin-top: 24px;
+    display: inline-block;
+    min-width: 224px;
+}
+.call-sales{
+    font-size: 22px;
+
+}
+.call-sales .phone-prefix{
+    display: block;
 }
 #featured-title {
 	position: relative;
@@ -67,6 +117,14 @@ img {
 
 /*services*/
 /*-------sv_sync-------*/
+.modal-video-services{
+    padding: 80px;
+}
+.img-model img{
+    width: 400px;
+    height: auto;
+    padding: 30px;
+}
 .slice-4{
     padding: 50px;
     background-color: #f2f8ff;
@@ -133,6 +191,10 @@ img {
         margin:auto;
         padding: 1.5rem!important;
     }
+    .architecture {
+        width: 100%!important;
+        padding-bottom: 30px!important;
+    }
     .slice-17 h2{
         font-size: 23px;
         padding-bottom: 10px!important;
@@ -194,7 +256,9 @@ img {
         text-align: left;
         padding-bottom: 5px!important;
     }
-
+    .img-model img{
+        width: 100%!important;
+    }
     .margin-top-base ul li {
         text-align: left;
     }
@@ -406,14 +470,14 @@ img {
     background-repeat: no-repeat;
     background-image: url('../../img/icons_arconis/drass_sv/bg_drass_sv.png')!important;
     background-size: cover;
-    padding: 120px;
+    padding: 70px;
 }
 .bg-slice-baas{
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url('../../img/icons_arconis/baas_sv/bg_for_video_2x.png')!important;
     background-size: cover;
-    padding: 100px 0 180px 0;
+    padding: 70px;
 }
 .ngan-partner{
     margin-top: 0!important;
@@ -501,8 +565,13 @@ img {
     left: 35px!important;
 }
 .p-des{
-    width: 85%;
+    width: 100%;
     margin: auto;
+}
+.architecture{
+    width: 74%;
+    object-fit: cover;
+    padding-bottom: 50px;
 }
 .slice-img-4 img {
     display: block;

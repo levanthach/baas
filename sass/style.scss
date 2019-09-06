@@ -16,7 +16,7 @@ $color-main: #1857a3;
 $color-topbar:#F7F7F7;
 $color-text-menu: #488BD3;
 $color-title: #333333;
-$color-text:#777;
+$color-text:#2f3640;
 $color-red: #8d1a0c;
 $color-white:#fff;
 $color-footer:#20252b;
@@ -152,7 +152,7 @@ $desktop-width: 1024px;
 					.tiltle-advertisement{
 						span {
 							font: 500 16px/19px "Acronis", "Open Sans", serif;
-							margin-left: 8em;
+							margin-left: 6.5em;
 							@include mobile {
 								margin-left: 0;
 								font-size: 13px;
@@ -178,7 +178,7 @@ $desktop-width: 1024px;
 								    height: 33px;
 								    position: absolute;
 								    top: -5px;
-								    right: 22px;
+								    right: 10px;
 								    background: url('../../img/arrow.png') no-repeat 0 0;
 								    background-size: 33px;
 								    margin: 0;
@@ -198,6 +198,7 @@ $desktop-width: 1024px;
 					.slogan-advertisement{
 						i{
 							margin-left: -10em;
+							font-family: 'Poppins'!important;
 							font-size: 17px;
 						    text-transform: none;
 						    font-style: normal;
@@ -846,6 +847,7 @@ $desktop-width: 1024px;
 			    }
 
 			    span{
+			    
 			    	outline: none!important;
 			    	font-size: 30px;
 				    color: $color-white;
@@ -864,6 +866,7 @@ $desktop-width: 1024px;
 			    bottom: 46%;
 			    transition: all 0.5s;
 			    span{
+
 			    	outline: none!important;
 			    	font-size: 30px;
 				    color: $color-white;
@@ -1150,6 +1153,7 @@ $desktop-width: 1024px;
 			    	left: -3%;
 			    }
 			    span{
+			    	font-family: 'Poppins'!important;
 			    	outline: none;
 			    	font-size: 30px;
 				    color: $color-white;
@@ -1174,6 +1178,7 @@ $desktop-width: 1024px;
 			    	right: -3%;
 			    }
 			    span{
+			    	font-family: 'Poppins'!important;
 			    	outline: none;
 			    	font-size: 30px;
 				    color: $color-white;
@@ -1261,6 +1266,7 @@ $desktop-width: 1024px;
 		} //end button-wrap
 	}
 	#footer{
+		font-family: 'Poppins'!important;
 		background: $color-footer;
 		font-size: 14px;
 		padding: 70px 0 0;
