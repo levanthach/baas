@@ -289,6 +289,7 @@ img {
     .container-inner2{
         padding: 40px!important;
     }
+    
     .p-blue img{
         max-width: 100%;
         padding: 20px 20px 0px 20px!important;
@@ -361,6 +362,18 @@ img {
         width: 100%!important;
     }
 }
+@media (max-width: 1365px) and (min-width: 1024px){
+    .page-hoptac img{
+        height: 34vh!important;
+    }
+    .title-long {
+        margin-top: 229px;
+    }
+    .product-logo img{
+        height: auto!important;
+    }
+}
+
 /*-------sv_notary-------*/
 .top-base img{
     width: 40%;
@@ -518,6 +531,9 @@ img {
     width: 100%;
     padding: 56px 16px 88px;
 
+}
+.container-inner3{
+    max-width: 926px!important;
 }
 .margin-top-base ul li{
     margin-top: 8px;
