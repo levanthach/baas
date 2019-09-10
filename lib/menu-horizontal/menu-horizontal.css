@@ -50,7 +50,7 @@ ul {
 }
 @media (min-width: 1024px) and (max-width: 1365px){
     .ace-responsive-menu > li > a {
-        padding: 23px 15px 23px 11px!important;
+        padding: 23px 12.5px 23px 11px!important;
         font-size: 13px!important;
     }
 }
