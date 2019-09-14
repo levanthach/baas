@@ -24,6 +24,20 @@ img {
     margin-left:auto;
     margin-right: auto;
 }
+.item-cyber{
+    padding-left: 120px!important;
+    margin: 20px 10px!important;
+    text-align: justify!important;
+}
+.item-cyber .subtitle{
+    margin-bottom: 0!important;
+}
+.img-cyber {
+    width: 90px!important;
+    height: auto!important;
+    top: 10%!important;
+    left: 5%!important;
+}
 .block-banner-sv {
     position: absolute;
     top: 0;
@@ -262,10 +276,14 @@ img {
     .margin-top-base ul li {
         text-align: left;
     }
+     .item-cyber {
+        padding-left: none!important;
+    }
     .slice-img-4 .item{
-        padding-left: 0!important;
+        padding-left: 0px!important;
         position: static!important;
     }
+
     .text{
         padding-top: 0px!important;
     }
