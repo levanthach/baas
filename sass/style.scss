@@ -699,6 +699,29 @@ $desktop-width: 1024px;
 	}// end row us
 	.section-space{
 		background: $color-topbar;
+		.title{
+			@include mobile {
+				padding-top: 1.5em!important;
+			}
+			.heading-title{
+				@include mobile {
+					font-size:26px;
+				}
+				text-transform: uppercase;
+				font-family: '';
+				font-weight: 600;
+			}
+			.ngan{
+				text-align: justify !important;
+				margin: auto;
+				width: 60px;
+				border: 1px solid #c6c1c1;
+				margin-bottom: 20px;
+				@include mobile {
+					margin-bottom: 10px;
+				}
+			}
+		}
 		.fun-box{
 			padding: 45px 0;
 			@include mobile {
@@ -718,12 +741,13 @@ $desktop-width: 1024px;
 				@include ngan;
 			}
 			.title{
-				@include mobile{
+				@include mobile {
 					padding-top: 1.5em!important;
 				}
 				color: #777;
 				font-size: 14px;
 				margin-top: 10px;
+				text-transform: uppercase;
 				@include tablet {
 					font-size: 13px;
 				}
@@ -733,7 +757,7 @@ $desktop-width: 1024px;
 	.gallery {
 		padding: 20px 0;
 		.title{
-			@include mobile{
+			@include mobile {
 				padding-top: 1.5em!important;
 			}
 			.heading-title{
@@ -751,6 +775,8 @@ $desktop-width: 1024px;
 				max-width: 40em;
 				margin:auto;
 				color: $color-text;
+				font-family: 'RobRoboto Slab';
+				font-size: 16.5px;
 				@include mobile {
 					max-width: 20em;
 				}
@@ -944,6 +970,7 @@ $desktop-width: 1024px;
 		background-attachment: fixed;
 		padding: 65px;	
 		margin: 50px 0;
+		font-family: 'RobRoboto Slab';
 		@include mobile {
 			padding: 40px 0;
     		margin: 30px 0;
@@ -956,7 +983,8 @@ $desktop-width: 1024px;
 		.certified__content{
 			.headding{
 				padding-left: 50px;
-				font-size: 45px;
+				font-size: 31px;
+				text-transform: uppercase;
 				font-weight: 700;
 				margin: -3px 0 8px 0;
 				color: $color-white;
@@ -968,7 +996,7 @@ $desktop-width: 1024px;
 			}
 			.desc{
 				padding-left: 50px;
-				font-size: 15px;
+				font-size: 16.5px;
 				margin-bottom: 25px;
 				color: $color-white;
 				@include mobile {
@@ -986,12 +1014,38 @@ $desktop-width: 1024px;
 					background-color: transparent;
 					color: $color-white;
 					padding: 9px 15px;
+					text-transform: uppercase;
 					border: 1px solid $color-white;
 					transition: all 0.7s cubic-bezier(0.19,-0.22, 0.96, 0.26);
 					&:hover{
 						background: $color-white;
 						color: $color-text;
 					};
+				}
+			}
+			.modal {
+				.modal-dialog {
+					.modal-header {
+						.modal-title {
+							font-family: 'RobRoboto Slab';
+						}
+						button {
+							&:focus {
+								outline: none!important;
+							}
+						}
+					}
+					.modal-content {
+						.modal-body {
+							display: inline;
+							img {
+								width: 32.5%;
+								padding: 15px;
+								height: auto;
+								object-fit: cover;
+							}
+						}
+					}
 				}
 			}
 		}

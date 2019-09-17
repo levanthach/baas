@@ -477,6 +477,25 @@ body {
       font-weight: 500; }
   .wrapper .section-space {
     background: #F7F7F7; }
+    @media (max-width: 767px) {
+      .wrapper .section-space .title {
+        padding-top: 1.5em !important; } }
+    .wrapper .section-space .title .heading-title {
+      text-transform: uppercase;
+      font-family: '';
+      font-weight: 600; }
+      @media (max-width: 767px) {
+        .wrapper .section-space .title .heading-title {
+          font-size: 26px; } }
+    .wrapper .section-space .title .ngan {
+      text-align: justify !important;
+      margin: auto;
+      width: 60px;
+      border: 1px solid #c6c1c1;
+      margin-bottom: 20px; }
+      @media (max-width: 767px) {
+        .wrapper .section-space .title .ngan {
+          margin-bottom: 10px; } }
     .wrapper .section-space .fun-box {
       padding: 45px 0; }
       @media (max-width: 767px) {
@@ -498,7 +517,8 @@ body {
       .wrapper .section-space .fun-box .title {
         color: #777;
         font-size: 14px;
-        margin-top: 10px; }
+        margin-top: 10px;
+        text-transform: uppercase; }
         @media (max-width: 767px) {
           .wrapper .section-space .fun-box .title {
             padding-top: 1.5em !important; } }
@@ -525,7 +545,9 @@ body {
     .wrapper .gallery .title .subtitle {
       max-width: 40em;
       margin: auto;
-      color: #2f3640; }
+      color: #2f3640;
+      font-family: 'RobRoboto Slab';
+      font-size: 16.5px; }
       @media (max-width: 767px) {
         .wrapper .gallery .title .subtitle {
           max-width: 20em; } }
@@ -678,7 +700,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     padding: 65px;
-    margin: 50px 0; }
+    margin: 50px 0;
+    font-family: 'RobRoboto Slab'; }
     @media (max-width: 767px) {
       .wrapper .certified {
         padding: 40px 0;
@@ -687,7 +710,8 @@ body {
       max-width: 100%; }
     .wrapper .certified .certified__content .headding {
       padding-left: 50px;
-      font-size: 45px;
+      font-size: 31px;
+      text-transform: uppercase;
       font-weight: 700;
       margin: -3px 0 8px 0;
       color: #fff; }
@@ -698,7 +722,7 @@ body {
           padding: 10px 0px; } }
     .wrapper .certified .certified__content .desc {
       padding-left: 50px;
-      font-size: 15px;
+      font-size: 16.5px;
       margin-bottom: 25px;
       color: #fff; }
       @media (max-width: 767px) {
@@ -715,12 +739,25 @@ body {
         background-color: transparent;
         color: #fff;
         padding: 9px 15px;
+        text-transform: uppercase;
         border: 1px solid #fff;
         -webkit-transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26);
         transition: all 0.7s cubic-bezier(0.19, -0.22, 0.96, 0.26); }
         .wrapper .certified .certified__content .elm-btn .elm-btn__white:hover {
           background: #fff;
           color: #2f3640; }
+    .wrapper .certified .certified__content .modal .modal-dialog .modal-header .modal-title {
+      font-family: 'RobRoboto Slab'; }
+    .wrapper .certified .certified__content .modal .modal-dialog .modal-header button:focus {
+      outline: none !important; }
+    .wrapper .certified .certified__content .modal .modal-dialog .modal-content .modal-body {
+      display: inline; }
+      .wrapper .certified .certified__content .modal .modal-dialog .modal-content .modal-body img {
+        width: 32.5%;
+        padding: 15px;
+        height: auto;
+        -o-object-fit: cover;
+           object-fit: cover; }
   .wrapper .about {
     padding: 50px 0px;
     margin-bottom: 3em; }

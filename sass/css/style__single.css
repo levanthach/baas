@@ -193,6 +193,10 @@ img {
     .breadcrumb-bg img{
         height: auto;
     }
+    .feature{
+        height: auto!important;
+
+    }
     #featured-title .featured-title-heading {
         font-size: 19px;
     }
@@ -269,6 +273,9 @@ img {
         font-size: 20px;
         text-align: left;
         padding-bottom: 5px!important;
+    }
+    .micro-off {
+        width: 100%!important;
     }
     .img-model img{
         width: 100%!important;
@@ -488,6 +495,7 @@ img {
 }
 .feature{
     padding-bottom: 40px;
+    display: block;
 }
 .feature p{
     padding-top: 20px;
@@ -509,6 +517,9 @@ img {
     background-image: url('../../img/icons_arconis/baas_sv/bg_for_video_2x.png')!important;
     background-size: cover;
     padding: 70px;
+}
+.micro-off {
+    width: 50%;
 }
 .ngan-partner{
     margin-top: 0!important;
@@ -834,7 +845,7 @@ img {
     font-weight: bold;
     font-size: 20px;
 }
-.fa-check-circle{
+.fa-check-circle,.fa-arrow-circle-right{
     margin-right: 10px;
     font-size: 18px;
     color: #29a0da;
