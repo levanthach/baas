@@ -626,9 +626,10 @@ $desktop-width: 1024px;
 						}
 					}
 					@include mobile {
-						bottom: 37%;
+						bottom: 42%;
 						width: 70px;
 						height: 70px;
+						left: 42%;
 					}
 					a{
 						i{
