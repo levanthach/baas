@@ -69,14 +69,13 @@ ul {
 .ace-responsive-menu li.menu-active a:hover{
     transition: all 0.5s;
     color: #fff;
-    background: #488BD3
+    background: #488BD3;
 }
 .ace-responsive-menu li.menu-active a:hover i{
     transition: all 0.5s;
     color: #fff;
+
 }
-
-
 
 .ace-responsive-menu li .menu-active {
     position: relative;
